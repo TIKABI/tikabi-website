@@ -1,0 +1,287 @@
+---
+file: index.html
+title: TIKABI – Webdesign & digitale Helfer für selbstständige Frauen
+description: Zeig, was dein Business besonders macht. Mit praktischen Guides zum Selbermachen oder einer Website, die Tiffany für dich gestaltet.
+page: home
+world: full
+---
+<main id="main">
+
+<!-- Der rote Faden: eine durchgehende, geschwungene Route im Stil der Weltkarte,
+     läuft hinter allen Sektionen entlang und füllt sich pink beim Scrollen.
+     Wird komplett per JS erzeugt (assets/tikabi.js: buildTrail) — in mehrere
+     kleine Abschnitte aufgeteilt (günstiger fürs Neuzeichnen), Punkte kommen
+     aus den [data-stop]-Sektionen dieser Seite. -->
+<div id="trail" aria-hidden="true"></div>
+
+<!-- 1 · HERO: Beim Scrollen taucht man in das Bild ein -->
+<section class="hero hero--dive" id="hero" data-stop="Start" aria-labelledby="hero-title">
+  <div class="dive-sticky">
+    <div class="wrap hero-grid">
+      <div class="hero-copy dv-copy">
+        <p class="eyebrow">Webdesign &amp; digitale Helfer für selbstständige Frauen</p>
+        <h1 id="hero-title"><span class="line">Dein Angebot.</span><span class="line">Deine Website.</span><span class="line em">Endlich klar.</span></h1>
+        <p class="lead">Zeig, was dein Business besonders macht. Mit praktischen Guides zum Selbermachen oder einer Website, die ich für dich gestalte.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="#weg">Deinen Weg finden</a>
+          <a class="btn btn-secondary" href="webdesign.html">Website erstellen lassen</a>
+        </div>
+        <p class="hero-hint"><span class="ornament" aria-hidden="true">✦</span> Für deinen nächsten Schritt. In deinem Tempo.</p>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-scene" aria-hidden="true">
+          <div class="dv dv-glow"></div>
+          <div class="dv dv-ring" style="--s0:.62;--k:4"></div>
+          <div class="dv dv-ring" style="--s0:.82;--k:7"></div>
+          <div class="dv dv-ring" style="--s0:1.02;--k:10"></div>
+          <div class="dv dv-figure"><img class="float" src="assets/img/hero-guides.webp" alt="" width="1400" height="933" fetchpriority="high"></div>
+          <span class="dv dv-spark" style="left:6%;top:10%;--tx:-520px;--ty:-300px"><i class="float">✦</i></span>
+          <span class="dv dv-spark" style="right:4%;top:26%;--tx:560px;--ty:-200px"><i class="float">✦</i></span>
+          <span class="dv dv-spark" style="left:14%;bottom:8%;--tx:-460px;--ty:340px"><i class="float">✦</i></span>
+          <span class="dv dv-spark" style="right:16%;bottom:12%;--tx:480px;--ty:300px"><i class="float">✦</i></span>
+        </div>
+        <div class="dv-note"><p class="note glass float">Klarer Auftritt. Gutes Gefühl.</p></div>
+      </div>
+    </div>
+
+    <a class="scroll-hint glass" href="#weg">WEITER ENTDECKEN<i aria-hidden="true"></i></a>
+  </div>
+</section>
+
+<div class="marquee" aria-label="KLARHEIT, STRUKTUR, PERSÖNLICHKEIT, DEIN NÄCHSTER SCHRITT">
+  <div class="marquee-track">
+    <div class="marquee-group"><span>KLARHEIT</span><span class="ornament" aria-hidden="true">✦</span><span>STRUKTUR</span><span class="ornament" aria-hidden="true">✦</span><span>PERSÖNLICHKEIT</span><span class="ornament" aria-hidden="true">✦</span><span>DEIN NÄCHSTER SCHRITT</span><span class="ornament" aria-hidden="true">✦</span><span>KLARHEIT</span><span class="ornament" aria-hidden="true">✦</span><span>STRUKTUR</span><span class="ornament" aria-hidden="true">✦</span><span>PERSÖNLICHKEIT</span><span class="ornament" aria-hidden="true">✦</span><span>DEIN NÄCHSTER SCHRITT</span><span class="ornament" aria-hidden="true">✦</span></div>
+    <div class="marquee-group" aria-hidden="true"><span>KLARHEIT</span><span class="ornament">✦</span><span>STRUKTUR</span><span class="ornament">✦</span><span>PERSÖNLICHKEIT</span><span class="ornament">✦</span><span>DEIN NÄCHSTER SCHRITT</span><span class="ornament">✦</span><span>KLARHEIT</span><span class="ornament">✦</span><span>STRUKTUR</span><span class="ornament">✦</span><span>PERSÖNLICHKEIT</span><span class="ornament">✦</span><span>DEIN NÄCHSTER SCHRITT</span><span class="ornament">✦</span></div>
+  </div>
+</div>
+
+<!-- 2 · WENN DU NICHT WEITERKOMMST -->
+<section class="section" id="weg" data-stop="Wegweiser" aria-labelledby="weg-title">
+  <div class="wrap">
+    <div class="split split--45-55 weg-head">
+      <div class="split-visual" data-parallax="0.07">
+        <img class="feather" src="assets/img/avatar-denkt.webp" alt="" width="1200" height="800" loading="lazy" data-reveal="scale">
+      </div>
+      <div>
+        <p class="eyebrow" data-reveal>Wenn du nicht weiterkommst</p>
+        <h2 id="weg-title" data-reveal>Viel im Kopf.<br>Aber auf deiner Website fehlt der <em>rote Faden?</em></h2>
+        <div class="plain" data-reveal><p>Noch eine Überschrift ändern. Noch ein Bild verschieben. Und trotzdem bleibt die Frage: Versteht jemand, der mich nicht kennt, eigentlich mein Angebot?</p></div>
+      </div>
+    </div>
+
+    <div class="route route-narrow" data-route>
+      <ol class="route-list">
+        <li class="stop" data-reveal>
+          <span class="stop-node" aria-hidden="true">01</span>
+          <a class="stop-body glass" href="shop.html">
+            <p class="eyebrow">Selber machen</p>
+            <h3>Du brauchst einen Plan.</h3>
+            <p>Guides, die dir bei Struktur und Texten helfen.</p>
+            <span class="go">Zu den Guides <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        <li class="stop" data-reveal>
+          <span class="stop-node" aria-hidden="true">02</span>
+          <a class="stop-body glass" href="tools.html#website-check">
+            <p class="eyebrow">Feedback bekommen</p>
+            <h3>Du brauchst einen frischen Blick.</h3>
+            <p>Persönliches Feedback zu deiner Website.</p>
+            <span class="go">Zum Website-Check <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        <li class="stop" data-reveal>
+          <span class="stop-node" aria-hidden="true">03</span>
+          <a class="stop-body glass" href="webdesign.html">
+            <p class="eyebrow">Umsetzung abgeben</p>
+            <h3>Du möchtest Unterstützung.</h3>
+            <p>Individuelles Webdesign für dein Business.</p>
+            <span class="go">Zum Webdesign <span aria-hidden="true">→</span></span>
+          </a>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- 3 · WELCHER GUIDE PASST ZU DIR? -->
+<section class="section" id="guides" data-stop="Guides" aria-labelledby="guides-title">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow" data-reveal>Kleiner Anfang. Klarer nächster Schritt.</p>
+      <h2 id="guides-title" data-reveal>Welcher Guide passt zu dir?</h2>
+      <p class="lead" data-reveal>Weniger Rätselraten.<br>Mehr Struktur für deine Website.</p>
+    </div>
+
+    <div class="guides" data-stagger>
+      <article class="guide glass" data-reveal>
+        <div class="guide-cover"><img src="assets/img/cover-fehler.webp" alt="Cover des PDF-Guides „7 Website-Fehler“" width="900" height="900" loading="lazy"></div>
+        <div class="guide-body">
+          <p class="eyebrow">Guide 01 · PDF</p>
+          <h3>7 Website-Fehler</h3>
+          <p>Erkenne, was deine Besucherinnen ausbremst.</p>
+          <div class="guide-buy"><p class="price"><span class="vh">Preis: </span>7 €</p><a class="btn btn-primary" href="shop.html#guide-1">Entdecken<span aria-hidden="true">→</span></a></div>
+        </div>
+      </article>
+      <article class="guide glass" data-reveal>
+        <div class="guide-cover"><img src="assets/img/cover-startseite.webp" alt="Cover des PDF-Guides „Eine Startseite mit Klarheit“" width="900" height="900" loading="lazy"></div>
+        <div class="guide-body">
+          <p class="eyebrow">Guide 02 · PDF</p>
+          <h3>Eine Startseite mit Klarheit</h3>
+          <p>Bringe dein Angebot in sieben Schritten auf den Punkt.</p>
+          <div class="guide-buy"><p class="price"><span class="vh">Preis: </span>9 €</p><a class="btn btn-primary" href="shop.html#guide-2">Entdecken<span aria-hidden="true">→</span></a></div>
+        </div>
+      </article>
+      <article class="guide glass" data-reveal>
+        <div class="guide-cover"><img src="assets/img/cover-komplett.webp" alt="Cover des PDF-Guides „Website komplett Guide“" width="900" height="900" loading="lazy"></div>
+        <div class="guide-body">
+          <p class="eyebrow">Guide 03 · PDF</p>
+          <h3>Website komplett Guide</h3>
+          <p>Dein Arbeitsbuch für Struktur und Texte deiner gesamten Website.</p>
+          <div class="guide-buy"><p class="price"><span class="vh">Preis: </span>47 €</p><a class="btn btn-primary" href="shop.html#guide-3">Entdecken<span aria-hidden="true">→</span></a></div>
+        </div>
+      </article>
+    </div>
+
+    <p class="hint" data-reveal>PDF-Guides für Planung, Struktur und Texte. Die technische Umsetzung in deinem Website-System übernimmst du selbst.</p>
+  </div>
+</section>
+
+<!-- 4 · ABLAUF FÜR DIE GUIDES -->
+<section class="section" id="ablauf-guides" data-stop="Guide-Ablauf" aria-labelledby="ablauf-guides-title">
+  <div class="wrap flow">
+    <div class="flow-intro">
+      <p class="eyebrow" data-reveal>Von der Idee ins Machen</p>
+      <h2 id="ablauf-guides-title" data-reveal>Dein Tempo.<br>Dein <em>Fortschritt.</em></h2>
+      <p class="lead" data-reveal>So arbeitest du mit deinen Website-Guides. Ganz ohne festen Kursplan.</p>
+    </div>
+    <div class="route" data-route>
+      <ol class="route-list">
+        <li class="stop" data-reveal><span class="stop-node" aria-hidden="true">01</span><div class="stop-body glass"><h3>Passende Hilfe wählen</h3><p>Du entscheidest, welches Produkt zu deiner aktuellen Aufgabe passt.</p></div></li>
+        <li class="stop" data-reveal><span class="stop-node" aria-hidden="true">02</span><div class="stop-body glass"><h3>Kaufen &amp; herunterladen</h3><p>Deinen PDF-Guide erhältst du nach dem Kauf über den Download-Link.</p></div></li>
+        <li class="stop" data-reveal><span class="stop-node" aria-hidden="true">03</span><div class="stop-body glass"><h3>In deinem Tempo umsetzen</h3><p>Arbeite mit den Fragen und Aufgaben an deinen Inhalten und Texten.</p></div></li>
+        <li class="stop" data-reveal><span class="stop-node" aria-hidden="true">04</span><div class="stop-body glass"><h3>Prüfen &amp; weiterentwickeln</h3><p>Übertrage deine Ergebnisse in deine Website und gehe Schritt für Schritt weiter.</p></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- 5 · WEBSITE-CHECK -->
+<section class="section" id="check" data-stop="Website-Check" aria-labelledby="check-title">
+  <div class="wrap split split--55-45">
+    <div>
+      <p class="eyebrow" data-reveal>Persönliches Website-Feedback</p>
+      <h2 id="check-title" data-reveal style="margin:16px 0 26px">Ein frischer Blick auf <em>deine Website.</em></h2>
+      <div class="plain" data-reveal>
+        <p>Du hast schon eine Website, aber weißt nicht, wo du anfangen sollst? Ich schaue sie mir an und zeige dir, was klarer werden kann.</p>
+        <div class="btn-row"><a class="btn btn-primary" href="tools.html#website-check">Website-Check entdecken<span aria-hidden="true">→</span></a></div>
+      </div>
+    </div>
+    <div class="split-visual" data-parallax="0.09">
+      <img class="feather" src="assets/img/avatar-check.webp" alt="" width="1400" height="933" loading="lazy" data-reveal="scale">
+    </div>
+  </div>
+</section>
+
+<!-- 6 · ÜBER MICH -->
+<section class="section" id="ueber-mich" data-stop="Über mich" aria-labelledby="about-title">
+  <div class="wrap split split--45-55">
+    <div class="split-visual" data-parallax="0.06">
+      <div class="about-photo figure-glow" data-reveal="scale">
+        <span class="ring" aria-hidden="true"></span>
+        <img class="feather" src="assets/img/tiffany.webp" alt="Tiffany, die Gründerin von TIKABI, mit ihrem kleinen Hund" width="1100" height="1100" loading="lazy">
+        <p class="note glass">Mit Kopf. Mit Herz. Mit dir.</p>
+      </div>
+    </div>
+    <div>
+      <p class="eyebrow" data-reveal>Der Kopf hinter TIKABI</p>
+      <h2 id="about-title" data-reveal style="margin:16px 0 26px">Hallo, ich bin <em>Tiffany.</em></h2>
+      <div class="plain stack" data-reveal>
+        <p>Eine Website soll zu dir passen. Und für die Menschen verständlich sein, die du erreichen möchtest.</p>
+        <p>Mit TIKABI unterstütze ich selbstständige Frauen dabei, ihre Angebote klar zu zeigen. Mit digitalen Helfern zum Selbermachen, ehrlichem Feedback und persönlichem Webdesign.</p>
+        <div class="btn-row"><a class="btn btn-primary" href="ueber-mich.html">Mehr über mich<span aria-hidden="true">→</span></a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 7 · UMSETZUNG ABGEBEN -->
+<section class="section" id="webdesign" data-stop="Webdesign" aria-labelledby="umsetzung-title">
+  <div class="wrap split split--55-45">
+    <div>
+      <p class="eyebrow" data-reveal>Umsetzung abgeben</p>
+      <h2 id="umsetzung-title" data-reveal style="margin:16px 0 26px">Dein Business braucht dich.<br>Deine Website bekommt <em>Unterstützung.</em></h2>
+      <div class="plain" data-reveal>
+        <p>Du bringst dein Angebot und deine Ideen mit.<br>Ich kümmere mich um Struktur, Design und Umsetzung.</p>
+        <div class="btn-row"><a class="btn btn-primary" href="webdesign.html">Webdesign kennenlernen<span aria-hidden="true">→</span></a></div>
+      </div>
+    </div>
+    <div class="split-visual" data-parallax="0.08">
+      <div class="web-visual" data-reveal="scale">
+        <img class="web-a feather" src="assets/img/webdesign-premium.webp" alt="" width="1400" height="654" loading="lazy">
+        <img class="web-b feather" src="assets/img/webdesign-basic.webp" alt="" width="1100" height="913" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 8 · SO ENTSTEHT DEINE WEBSITE -->
+<section class="section" id="ablauf-webdesign" data-stop="Ablauf" aria-labelledby="ablauf-title">
+  <div class="wrap">
+    <div class="section-head center" style="margin-inline:auto">
+      <p class="eyebrow" data-reveal>Klarer Ablauf. Persönliche Begleitung.</p>
+      <h2 id="ablauf-title" data-reveal>So entsteht <em>deine Website.</em></h2>
+      <p class="lead" data-reveal>Du musst nicht alles fertig haben. Wir gehen die nächsten Schritte gemeinsam.</p>
+    </div>
+    <div class="route route--zigzag" data-route>
+      <ol class="route-list">
+        <li class="stop" data-reveal><span class="stop-node" aria-hidden="true">01</span><div class="stop-body glass"><h3>Bedarf klären</h3><p>Wir besprechen dein Angebot, deine Zielgruppe und was deine Website leisten soll.</p></div></li>
+        <li class="stop" data-reveal><span class="stop-node" aria-hidden="true">02</span><div class="stop-body glass"><h3>Inhalte sammeln</h3><p>Du lieferst Grundtexte und Bilder. Gezielte Fragen helfen dir, wenn noch etwas fehlt.</p></div></li>
+        <li class="stop" data-reveal><span class="stop-node" aria-hidden="true">03</span><div class="stop-body glass"><h3>Texte &amp; Design entwickeln</h3><p>Aus deinen Informationen entsteht eine klare Struktur mit einem Design, das zu dir passt.</p></div></li>
+        <li class="stop" data-reveal><span class="stop-node" aria-hidden="true">04</span><div class="stop-body glass"><h3>Gemeinsam abstimmen</h3><p>Du schaust dir den Entwurf an. Wir sammeln dein Feedback und stimmen die Änderungen ab.</p></div></li>
+        <li class="stop" data-reveal><span class="stop-node" aria-hidden="true">05</span><div class="stop-body glass"><h3>Prüfen &amp; live gehen</h3><p>Wir prüfen die Darstellung und Funktionen. Anschließend geht deine Website online.</p></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- 9 · HÄUFIGE FRAGEN -->
+<section class="section" id="fragen" data-stop="Fragen" aria-labelledby="faq-title">
+  <div class="wrap faq">
+    <div class="faq-intro">
+      <p class="eyebrow" data-reveal>Gut zu wissen</p>
+      <h2 id="faq-title" data-reveal>Vielleicht fragst du dich gerade&nbsp;…</h2>
+    </div>
+    <div class="faq-list glass" data-reveal>
+      <details name="faq"><summary>Welcher Guide passt zu mir?</summary><div class="answer"><p>Du möchtest einzelne Schwachstellen erkennen? Starte mit dem Fehler-Guide. Für die erste Seite ist der Startseiten-Guide gedacht. Für die gesamte Website nimm den kompletten Website-Guide.</p></div></details>
+      <details name="faq"><summary>Funktionieren die Guides auch ohne Wix?</summary><div class="answer"><p>Ja. Die Guides helfen bei Struktur, Inhalten und Texten. Diese Grundlagen kannst du unabhängig vom Website-Baukasten nutzen. Die technische Umsetzung übernimmst du selbst.</p></div></details>
+      <details name="faq"><summary>Was unterscheidet den Guide vom Website-Check?</summary><div class="answer"><p>Mit dem Guide arbeitest du selbstständig an deiner Website. Beim Website-Check erhältst du persönliches Feedback zu deiner bestehenden Website und konkrete Empfehlungen.</p></div></details>
+      <details name="faq"><summary>Brauche ich für Webdesign fertige Texte?</summary><div class="answer"><p>Grundtexte reichen als Ausgangspunkt. Wenn dir das Schreiben schwerfällt, sammeln wir die wichtigsten Informationen über gezielte Fragen. Den genauen Umfang stimmen wir vorab ab.</p></div></details>
+      <details name="faq"><summary>Wie lange dauert die Umsetzung?</summary><div class="answer"><p>Das hängt vom Umfang und davon ab, wann deine Inhalte vollständig vorliegen. Deinen Zeitplan vereinbaren wir vor Projektbeginn.</p></div></details>
+      <details name="faq"><summary>Kann ich die Website später selbst bearbeiten?</summary><div class="answer"><p>Ja. Bei der Übergabe zeige ich dir, wie du deine Inhalte im vereinbarten Website-System selbst pflegen kannst.</p></div></details>
+    </div>
+  </div>
+</section>
+
+<!-- 10 · SELBSTCHECK & NEWSLETTER -->
+<section class="section" id="selbstcheck" data-stop="Selbstcheck" aria-labelledby="selbstcheck-title">
+  <div class="wrap">
+    <div class="signup glass" data-reveal>
+      <div class="signup-grid">
+        <div>
+          <p class="eyebrow">Dein erster Überblick</p>
+          <h2 id="selbstcheck-title">Wo steht <em>deine Website?</em></h2>
+          <p class="lead">Der kostenlose Website-Selbstcheck hilft dir, einen ersten Blick auf deine Inhalte zu werfen. Zusammen mit dem TIKABI Newsletter erhältst du Impulse für deine nächsten Schritte.</p>
+        </div>
+        <div class="signup-form">
+          <h3>Hol dir deinen Selbstcheck.</h3>
+          <p>Melde dich über das TIKABI-Anmeldeformular an und bestätige anschließend deine E-Mail-Adresse.</p>
+          <a class="btn btn-primary" href="{{BREVO_FORMULAR}}" target="_blank" rel="noopener">Zum kostenlosen Selbstcheck<span aria-hidden="true">→</span></a>
+          <p class="fine">Newsletter-Anmeldung. Jederzeit wieder abmeldbar.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>

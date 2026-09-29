@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AGB – TIKABI</title>
+<meta name="description" content="Allgemeine Geschäftsbedingungen von TIKABI Webdesign.">
+<meta name="theme-color" content="#1A1233">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/playfair-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/tikabi.css">
+</head>
+<body data-page="legal" data-world="calm">
+<a class="skip" href="#main">Zum Inhalt springen</a>
+
+<!-- Die Welt: bleibt über alle Seiten bestehen -->
+<div class="world" aria-hidden="true">
+  <div class="aurora"></div>
+  <div class="orb orb--1"><i></i></div>
+  <div class="orb orb--2"><i></i></div>
+  <div class="orb orb--3"><i></i></div>
+  <canvas id="stars"></canvas>
+</div>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html" data-nav="home" aria-label="TIKABI – zur Startseite">TIKABI</a>
+    <nav class="main-nav" aria-label="Hauptnavigation">
+      <a href="shop.html" data-nav="guides tools">Guides &amp; digitale Helfer</a>
+      <a href="webdesign.html" data-nav="webdesign">Webdesign</a>
+      <a href="ueber-mich.html" data-nav="about">Über mich</a>
+      <a class="nav-cta" href="kontakt.html" data-nav="contact">Lass uns sprechen</a>
+    </nav>
+    <div class="header-tools">
+      <button class="icon-btn map-btn" type="button" data-map-open aria-haspopup="dialog">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2-6-2zM9 4v14M15 6v14"/></svg>
+        <span class="lbl">Weltkarte</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<nav class="rail" id="rail" aria-label="Stationen dieser Seite"></nav>
+
+<!-- Weltkarte -->
+<div class="map" id="map" role="dialog" aria-modal="true" aria-labelledby="map-title" aria-hidden="true">
+  <div class="map-panel glass">
+    <div class="map-head">
+      <div>
+        <p class="eyebrow">Wohin soll die Reise gehen?</p>
+        <h2 id="map-title">Weltkarte</h2>
+      </div>
+      <button class="icon-btn map-close" type="button" data-map-close aria-label="Weltkarte schließen">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="map-stage">
+      <svg class="map-svg map-svg--wide" viewBox="0 0 1000 520" aria-hidden="true" focusable="false">
+        <path class="map-land" d="M40,300 C60,220 140,190 210,210 C290,232 330,300 300,370 C270,440 150,470 90,430 C50,405 30,350 40,300Z"/>
+        <path class="map-land" d="M190,90 C240,50 340,60 360,120 C380,180 330,230 270,230 C210,230 160,140 190,90Z"/>
+        <path class="map-land" d="M380,250 C430,200 520,210 560,260 C600,310 570,400 500,430 C430,455 360,410 350,340 C345,300 355,270 380,250Z"/>
+        <path class="map-land" d="M610,70 C680,30 780,50 800,120 C820,190 770,250 700,250 C640,250 590,180 610,70Z"/>
+        <path class="map-land" d="M730,290 C790,260 890,280 910,340 C930,400 870,460 800,450 C740,440 690,330 730,290Z"/>
+        <path class="map-land" d="M850,80 C890,50 960,70 968,130 C975,190 925,220 885,195 C845,170 825,110 850,80Z"/>
+        <ellipse class="map-contour" cx="450" cy="335" rx="80" ry="62"/><ellipse class="map-contour" cx="450" cy="335" rx="46" ry="34"/>
+        <ellipse class="map-contour" cx="700" cy="150" rx="70" ry="54"/><ellipse class="map-contour" cx="150" cy="330" rx="86" ry="64"/>
+        <g class="map-compass" transform="translate(940 470)"><circle r="20"/><path d="M0-30V30M-30 0H30" stroke-linecap="round"/><path d="M0-20L5 0 0 20-5 0z" fill="#FF0098" stroke="none"/><text y="-36" text-anchor="middle">N</text></g>
+        <path id="map-path-wide" class="map-route" d="M90,374 C150,250 190,150 270,156 C360,162 390,330 470,333 C560,336 580,150 660,146 C740,142 720,340 790,343 C860,346 860,160 910,156"/>
+        <circle class="map-traveler" r="5"><animateMotion dur="18s" repeatCount="indefinite" path="M90,374 C150,250 190,150 270,156 C360,162 390,330 470,333 C560,336 580,150 660,146 C740,142 720,340 790,343 C860,346 860,160 910,156"/></circle>
+      </svg>
+      <svg class="map-svg map-svg--tall" viewBox="0 0 400 640" aria-hidden="true" focusable="false">
+        <ellipse class="map-land" cx="88" cy="51" rx="90" ry="46" transform="rotate(-6 88 51)"/><ellipse class="map-land" cx="296" cy="160" rx="92" ry="48" transform="rotate(8 296 160)"/>
+        <ellipse class="map-land" cx="88" cy="269" rx="92" ry="48" transform="rotate(-8 88 269)"/><ellipse class="map-land" cx="296" cy="378" rx="92" ry="48" transform="rotate(6 296 378)"/>
+        <ellipse class="map-land" cx="88" cy="493" rx="90" ry="48" transform="rotate(-6 88 493)"/><ellipse class="map-land" cx="296" cy="589" rx="92" ry="44" transform="rotate(8 296 589)"/>
+        <path class="map-route" d="M88,51 C200,51 296,90 296,160 C296,230 88,200 88,269 C88,338 296,310 296,378 C296,446 88,426 88,493 C88,560 296,530 296,589"/>
+        <circle class="map-traveler" r="5"><animateMotion dur="20s" repeatCount="indefinite" path="M88,51 C200,51 296,90 296,160 C296,230 88,200 88,269 C88,338 296,310 296,378 C296,446 88,426 88,493 C88,560 296,530 296,589"/></circle>
+      </svg>
+      <ul class="map-nodes">
+        <li><a class="map-node" href="index.html" data-nav="home" style="--x:9;--y:72;--tx:22;--ty:8"><span class="here">Du bist hier</span><span class="pin"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h5v-6h4v6h5V10"/></svg></span><span class="name">Start</span></a></li>
+        <li><a class="map-node" href="shop.html" data-nav="guides" style="--x:27;--y:30;--tx:74;--ty:25"><span class="here">Du bist hier</span><span class="pin"><svg viewBox="0 0 24 24"><path d="M4 4h11a3 3 0 013 3v13H7a3 3 0 01-3-3V4zM4 17a3 3 0 013-3h11"/></svg></span><span class="name">Guides</span></a></li>
+        <li><a class="map-node" href="tools.html" data-nav="tools" style="--x:47;--y:64;--tx:22;--ty:42"><span class="here">Du bist hier</span><span class="pin"><svg viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3zM19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8L19 16z"/></svg></span><span class="name">Digitale Helfer</span></a></li>
+        <li><a class="map-node" href="webdesign.html" data-nav="webdesign" style="--x:66;--y:28;--tx:74;--ty:59"><span class="here">Du bist hier</span><span class="pin"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="11" rx="1.5"/><path d="M2 20h20"/></svg></span><span class="name">Webdesign</span></a></li>
+        <li><a class="map-node" href="ueber-mich.html" data-nav="about" style="--x:79;--y:66;--tx:22;--ty:77"><span class="here">Du bist hier</span><span class="pin"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 017-2.4A4 4 0 0119 10c0 5.6-7 10-7 10z"/></svg></span><span class="name">Über mich</span></a></li>
+        <li><a class="map-node" href="kontakt.html" data-nav="contact" style="--x:91;--y:30;--tx:74;--ty:92"><span class="here">Du bist hier</span><span class="pin"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5z"/></svg></span><span class="name">Lass uns sprechen</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="stage">
+<main id="main">
+<section class="page-hero" data-stop="Rechtliches" aria-labelledby="page-title" style="padding-bottom:clamp(8px,2vw,24px)">
+  <div class="wrap">
+    <p class="eyebrow">Rechtliches</p>
+    <h1 id="page-title" style="font-size:clamp(2.2rem,4.4vw,3.6rem)">Allgemeine Geschäftsbedingungen (AGB)</h1>
+  </div>
+</section>
+<section class="section" style="padding-top:clamp(16px,2vw,32px)">
+  <div class="wrap">
+    <div class="legal glass pad">
+      <h2>1. Geltungsbereich</h2>
+      <p>Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Verträge, die zwischen TIKABI Webdesign (nachfolgend „Anbieterin“) und ihren Kund:innen geschlossen werden. Je nach Art des Angebots unterscheiden sich die Vertragspartner wie folgt:</p>
+      <ul>
+        <li>Für Webdesign-Dienstleistungen und Automatisierungs-Services: ausschließlich Unternehmer:innen im Sinne des § 14 BGB (B2B).</li>
+        <li>Für digitale Produkte und Merchandise-Artikel: sowohl Verbraucher:innen (§ 13 BGB) als auch Unternehmer:innen (§ 14 BGB).</li>
+      </ul>
+      <p>Abweichende Bedingungen der Kund:innen werden nicht anerkannt, es sei denn, die Anbieterin stimmt ihrer Geltung ausdrücklich schriftlich zu.</p>
+
+      <h2>2. Vertragspartner</h2>
+      <p>Vertragspartnerin ist:<br>TIKABI Webdesign – Tiffany Katz<br>Vor dem Einoth 2<br>35216 Biedenkopf</p>
+      <p>E-Mail: <a href="mailto:hello@tikabi.de">hello@tikabi.de</a><br>Website: <a href="https://tikabi.de">https://tikabi.de</a></p>
+
+      <h2>3. Vertragsgegenstand</h2>
+      <p>Die Anbieterin bietet folgende Leistungen an:</p>
+      <ul>
+        <li>Erstellung und Gestaltung von Websites (mit KI-Unterstützung, z. B. mit Wix, mit WordPress oder als individuell erstellte Website, die über einen Hosting-Dienst wie Netlify bereitgestellt wird)</li>
+        <li>Einrichtung digitaler Tools und Automatisierungen</li>
+        <li>Verkauf digitaler Produkte (z. B. DIY-Guides, Vorlagen, Anleitungen)</li>
+        <li>Verkauf von Merchandise-Artikeln (Print-on-Demand), sofern im Angebot</li>
+      </ul>
+      <p>Der genaue Leistungsumfang ergibt sich aus der jeweiligen Produktbeschreibung oder dem individuellen Angebot.</p>
+
+      <h2>4. Vertragsschluss</h2>
+      <p>Die Darstellung der Produkte, Leistungen und Baukasten-Elemente (z. B. Website-Basispakete, Erweiterungen, digitale Produkte oder Merchandise-Artikel) auf dieser Website stellt kein rechtlich bindendes Angebot dar, sondern eine Aufforderung zur Abgabe eines Angebots durch die Kund:innen.</p>
+      <p>Für die Abwicklung von Käufen und Buchungen nutzt die Anbieterin den Shop-Dienst Payhip (Payhip Ltd). Mit einem Klick auf die Schaltflächen „Jetzt kaufen“, „buchen“ oder eine vergleichbare Schaltfläche werden die Kund:innen zu Payhip weitergeleitet. Mit dem Abschluss des dortigen Bestellvorgangs geben die Kund:innen ein verbindliches Angebot zum Abschluss eines Vertrags ab.</p>
+      <p>Der Vertrag kommt zustande, sobald die Zahlung erfolgreich abgeschlossen wurde. Mit dem Zahlungsvorgang nimmt die Anbieterin das Angebot der Kund:innen an.</p>
+      <p>Nach erfolgreicher Zahlung erhalten die Kund:innen eine automatische Bestellbestätigung per E-Mail.</p>
+      <ul>
+        <li>Digitale Produkte werden anschließend per Downloadlink oder E-Mail bereitgestellt.</li>
+        <li>Merchandise-Artikel (sofern im Angebot) werden individuell über einen Print-on-Demand-Dienstleister gefertigt und an die angegebene Lieferadresse versendet.</li>
+        <li>Baukasten-Webdesign-Produkte oder -Leistungen werden nach Zahlungseingang entsprechend der Produktbeschreibung terminiert und umgesetzt.</li>
+      </ul>
+      <p>Die Vertragssprache ist Deutsch. Der Vertragstext wird nach Abschluss des Bestellvorgangs nicht dauerhaft gespeichert; Kund:innen sollten daher die Bestellbestätigung für ihre Unterlagen sichern.</p>
+
+      <h2>5. Preise und Zahlungsbedingungen</h2>
+      <p>Alle Preise sind in Euro angegeben.</p>
+      <ul>
+        <li>Für Unternehmer:innen verstehen sich die Preise zuzüglich gesetzlicher Umsatzsteuer.</li>
+        <li>Für Verbraucher:innen sind Endpreise inklusive Mehrwertsteuer angegeben.</li>
+      </ul>
+      <p>Es stehen die im Bestellvorgang bei Payhip angezeigten Zahlungsarten zur Verfügung (z. B. PayPal oder Kreditkarte).</p>
+      <p>Die Zahlung ist sofort nach Vertragsschluss fällig.</p>
+
+      <h2>6. Lieferung und Bereitstellung</h2>
+      <ul>
+        <li>Digitale Produkte werden nach Zahlungseingang per E-Mail oder als Downloadlink bereitgestellt.</li>
+        <li>Merchandise-Artikel werden über einen Print-on-Demand-Dienstleister hergestellt und direkt an die Lieferadresse der Kund:innen versendet. Lieferzeiten und Versandbedingungen sind den jeweiligen Produktseiten zu entnehmen.</li>
+        <li>Dienstleistungen werden individuell nach Vereinbarung erbracht.</li>
+      </ul>
+
+      <h2>7. Widerrufsrecht</h2>
+      <h3>(a) Für Verbraucher:innen</h3>
+      <p>Verbraucher:innen steht bei physischen Waren (Merchandise) grundsätzlich ein Widerrufsrecht von 14 Tagen zu. Die Einzelheiten ergeben sich aus der <a href="widerruf.html">Widerrufsbelehrung</a>, die separat auf der Website bereitgestellt wird.</p>
+      <h3>(b) Ausschluss des Widerrufsrechts bei digitalen Produkten</h3>
+      <p>Bei digitalen Inhalten, die nicht auf einem körperlichen Datenträger geliefert werden (z. B. Downloads), erlischt das Widerrufsrecht, sobald der Download begonnen hat und die Kundin / der Kunde zuvor ausdrücklich zugestimmt hat, dass die Anbieterin mit der Ausführung des Vertrags vor Ablauf der Widerrufsfrist beginnt.</p>
+
+      <h2>8. Nutzungsrechte an digitalen Inhalten</h2>
+      <p>Nach vollständiger Zahlung erhält der/die Kund:in ein einfaches, nicht übertragbares Nutzungsrecht an den erworbenen digitalen Inhalten.</p>
+      <p>Die Weitergabe, Vervielfältigung oder gewerbliche Nutzung ohne schriftliche Zustimmung ist untersagt.</p>
+
+      <h2>9. Urheberrecht und Referenznutzung</h2>
+      <p>Sämtliche im Rahmen der Webdesign-Leistungen erstellten Entwürfe, Designs, Texte und Bilder unterliegen dem Urheberrecht der Anbieterin.</p>
+      <p>Die Anbieterin darf abgeschlossene Projekte zu Referenzzwecken (z. B. auf der eigenen Website oder in Social Media) zeigen, sofern der/die Auftraggeber:in dem nicht ausdrücklich widerspricht.</p>
+
+      <h2>10. Haftung</h2>
+      <p>Die Anbieterin haftet nur für Vorsatz und grobe Fahrlässigkeit.</p>
+      <p>Für leichte Fahrlässigkeit haftet sie nur bei Verletzung wesentlicher Vertragspflichten (Kardinalpflichten).</p>
+      <p>Eine Haftung für mittelbare Schäden, entgangenen Gewinn oder Datenverlust ist ausgeschlossen.</p>
+      <p>Bei digitalen Produkten wird keine Gewähr für Kompatibilität oder bestimmte Ergebnisse übernommen.</p>
+
+      <h2>11. Gewährleistung</h2>
+      <p>Es gelten die gesetzlichen Gewährleistungsrechte.</p>
+      <p>Bei Print-on-Demand-Produkten kann es zu produktionsbedingten Abweichungen in Farbe oder Position des Drucks kommen. Diese stellen keinen Mangel dar.</p>
+
+      <h2>12. Schlussbestimmungen</h2>
+      <p>Es gilt deutsches Recht unter Ausschluss des UN-Kaufrechts.</p>
+      <p>Gerichtsstand ist der Sitz der Anbieterin.</p>
+      <p>Sollte eine Bestimmung dieser AGB unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html" aria-label="TIKABI – zur Startseite">TIKABI</a>
+        <p>Webdesign und digitale Helfer für selbstständige Frauen.</p>
+        <p class="tag">Dein Business. Dein nächster Schritt.</p>
+      </div>
+      <nav class="footer-col" aria-label="Entdecken">
+        <h4>Entdecken</h4>
+        <ul>
+          <li><a href="shop.html">Website-Guides</a></li>
+          <li><a href="tools.html#website-check">Website-Check</a></li>
+          <li><a href="webdesign.html">Webdesign</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-label="TIKABI">
+        <h4>TIKABI</h4>
+        <ul>
+          <li><a href="ueber-mich.html">Über mich</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="mailto:hello@tikabi.de">hello@tikabi.de</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-label="Soziale Netzwerke">
+        <h4>Bleiben wir in Kontakt</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/tikabiwebdesign/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://de.pinterest.com/TIKABIwebdesign/" target="_blank" rel="noopener">Pinterest</a></li>
+          <li><a href="https://wa.me/message/7QR7ZZN3UT7TO1" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav class="footer-legal" aria-label="Rechtliche Links">
+      <h4>Rechtliche Links</h4>
+      <ul>
+        <li><a href="impressum.html">Impressum</a></li>
+        <li><a href="datenschutz.html">Datenschutz</a></li>
+        <li><a href="agb.html">AGB</a></li>
+        <li><a href="widerruf.html">Widerrufsbelehrung</a></li>
+        <li><a href="rueckerstattung.html">Rückerstattung</a></li>
+        <li><a href="versand.html">Versandrichtlinien</a></li>
+      </ul>
+    </nav>
+    <p class="footer-end">© 2026&nbsp; TIKABI. All rights reserved.</p>
+  </div>
+</footer>
+</div>
+
+<script src="assets/tikabi.js" defer></script>
+</body>
+</html>
