@@ -6,8 +6,38 @@
  },
  "pins": [
   {
-   "id": "tikabi-pin-01",
+   "id": "tikabi-pin-21",
    "date": "2026-10-19",
+   "board": "tipps",
+   "title": "Ist deine Website bereit für Anfragen? 3 Zeichen, dass ja",
+   "description": "Drei einfache Zeichen, dass deine Website Besucherinnen zu Kundinnen macht. Fehlt eins davon, zeigt dir der Website-Check in wenigen Minuten, was du ändern kannst.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-21.jpg",
+   "alt": "Pin von TIKABI: Ist deine Website bereit für Anfragen?"
+  },
+  {
+   "id": "tikabi-pin-22",
+   "date": "2026-10-19",
+   "board": "tipps",
+   "title": "Betriebsblind bei der eigenen Website? So findest du die Fehler",
+   "description": "Wer jeden Tag auf die eigene Website schaut, übersieht Stolpersteine. Der Fehler-Guide hilft dir, deine Seite wieder mit den Augen einer Besucherin zu sehen.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-22.jpg",
+   "alt": "Pin von TIKABI: Diese Fehler siehst du selbst nicht mehr"
+  },
+  {
+   "id": "tikabi-pin-23",
+   "date": "2026-10-19",
+   "board": "texte",
+   "title": "Startseite aufbauen: 5 Bausteine, die jede Startseite braucht",
+   "description": "Überschrift, Zielgruppe, Ablauf, Stimmen und ein klarer Button: Mit diesen fünf Bausteinen steht deine Startseite. Der Startseiten-Guide führt dich Schritt für Schritt.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-23.jpg",
+   "alt": "Pin von TIKABI: Deine Startseite in 5 Bausteinen"
+  },
+  {
+   "id": "tikabi-pin-01",
+   "date": "2026-10-20",
    "board": "tipps",
    "title": "7 Website-Fehler, die Selbstständige Anfragen kosten",
    "description": "Deine Website steht, aber Anfragen bleiben aus? Diese sieben Fehler bremsen Besucherinnen aus. Der PDF-Guide zeigt dir, wie du sie erkennst und behebst, auch ohne Technikwissen.",
@@ -16,8 +46,38 @@
    "alt": "Pin von TIKABI: 7 Fehler, die dich Anfragen kosten"
   },
   {
-   "id": "tikabi-pin-02",
+   "id": "tikabi-pin-24",
    "date": "2026-10-20",
+   "board": "texte",
+   "title": "Website-Texte, die nach dir klingen: Schreib, wie du sprichst",
+   "description": "Deine Kundinnen wollen dich kennenlernen, keine Werbebroschüre lesen. Mit diesem Tipp klingen deine Website-Texte persönlich und echt.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-24.jpg",
+   "alt": "Pin von TIKABI: Schreib so, wie du sprichst"
+  },
+  {
+   "id": "tikabi-pin-25",
+   "date": "2026-10-20",
+   "board": "tipps",
+   "title": "Website fürs Handy optimieren: Darauf kommt es an",
+   "description": "Die meisten Besucherinnen sehen deine Website zuerst auf dem Handy. Große Schrift, kurze Absätze und gut erreichbare Buttons machen den Unterschied.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-25.jpg",
+   "alt": "Pin von TIKABI: Die meisten kommen vom Handy"
+  },
+  {
+   "id": "tikabi-pin-26",
+   "date": "2026-10-21",
+   "board": "google",
+   "title": "Bei Google gefunden werden als Selbstständige: 3 einfache Schritte",
+   "description": "Mit diesen drei Schritten verstehen Suchmaschinen, was du anbietest und wo. So finden dich Kundinnen, die genau nach dir suchen.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-26.jpg",
+   "alt": "Pin von TIKABI: Gefunden werden, wenn sie nach dir suchen"
+  },
+  {
+   "id": "tikabi-pin-02",
+   "date": "2026-10-21",
    "board": "texte",
    "title": "Was gehört auf eine Startseite? 7 Bausteine für Selbstständige",
    "description": "Eine gute Startseite beantwortet in Sekunden: Wer bist du, was bietest du an, und was kann ich jetzt tun? Mit dem Startseiten-Guide bringst du dein Angebot in sieben Schritten auf den Punkt.",
@@ -26,8 +86,38 @@
    "alt": "Pin von TIKABI: Was gehört auf deine Startseite?"
   },
   {
-   "id": "tikabi-pin-03",
+   "id": "tikabi-pin-27",
    "date": "2026-10-21",
+   "board": "google",
+   "title": "Wirst du von ChatGPT empfohlen? So machst du deine Website KI-sichtbar",
+   "description": "Immer mehr Menschen fragen KI-Assistenten nach Empfehlungen. Je klarer deine Website sagt, wer du bist und was du anbietest, desto eher wirst du genannt.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-27.jpg",
+   "alt": "Pin von TIKABI: Fragt jemand ChatGPT, nennt es dich?"
+  },
+  {
+   "id": "tikabi-pin-28",
+   "date": "2026-10-22",
+   "board": "texte",
+   "title": "Bessere Button-Texte: So klicken mehr Besucherinnen",
+   "description": "Statt „Absenden“ und „Kontakt“ lieber sagen, was passiert. Mit diesen Beispielen werden deine Buttons einladender.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-28.jpg",
+   "alt": "Pin von TIKABI: Ein paar Worte, mehr Klicks"
+  },
+  {
+   "id": "tikabi-pin-29",
+   "date": "2026-10-22",
+   "board": "tipps",
+   "title": "Kundenstimmen auf der Website: So wirken sie wirklich",
+   "description": "Kundenstimmen überzeugen dann am meisten, wenn sie konkret sind und nah am nächsten Schritt stehen. So setzt du sie auf deiner Website ein.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-29.jpg",
+   "alt": "Pin von TIKABI: So wirken Kundenstimmen richtig"
+  },
+  {
+   "id": "tikabi-pin-03",
+   "date": "2026-10-22",
    "board": "tipps",
    "title": "Website-Selbstcheck: Deine Website in 10 Minuten prüfen (kostenlos)",
    "description": "Wo steht deine Website wirklich? Mit dem kostenlosen 10-Minuten-Selbstcheck findest du heraus, was schon gut ist und wo es hakt. Ideal für Selbstständige, Coachinnen und Dienstleisterinnen.",
@@ -36,8 +126,38 @@
    "alt": "Pin von TIKABI: Deine Website in 10 Minuten prüfen"
   },
   {
+   "id": "tikabi-pin-30",
+   "date": "2026-10-23",
+   "board": "tipps",
+   "title": "Website online stellen: Was du vorher prüfen solltest",
+   "description": "Bevor du deine Website veröffentlichst, nimm dir zehn Minuten für diese vier Punkte. So startest du ohne peinliche Fehler.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-30.jpg",
+   "alt": "Pin von TIKABI: Deine Website geht online? Prüf das zuerst"
+  },
+  {
+   "id": "tikabi-pin-31",
+   "date": "2026-10-23",
+   "board": "tipps",
+   "title": "Welche Hilfe für deine Website? Guide, Website-Check oder Webdesign",
+   "description": "Selber machen, Feedback bekommen oder die Umsetzung abgeben: Finde heraus, welche Unterstützung gerade zu dir und deiner Website passt.",
+   "link": "https://tikabi.de/?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-31.jpg",
+   "alt": "Pin von TIKABI: Guide, Check oder Webdesign?"
+  },
+  {
+   "id": "tikabi-pin-32",
+   "date": "2026-10-23",
+   "board": "texte",
+   "title": "So führst du Besucherinnen durch deine Website",
+   "description": "Eine gute Website ist wie ein Weg: vom Problem über die Lösung zum nächsten Schritt. So baust du diesen roten Faden in deine Seiten ein.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-32.jpg",
+   "alt": "Pin von TIKABI: Führe sie Schritt für Schritt"
+  },
+  {
    "id": "tikabi-pin-04",
-   "date": "2026-10-22",
+   "date": "2026-10-24",
    "board": "tipps",
    "title": "Der 5-Sekunden-Test für deine Website",
    "description": "Versteht eine fremde Besucherin in fünf Sekunden, was du anbietest und für wen? Wenn nicht, verlierst du Anfragen. Der TIKABI Website-Check analysiert deine Website in wenigen Minuten und zeigt dir konkrete Verbesserungen.",
@@ -46,14 +166,74 @@
    "alt": "Pin von TIKABI: Versteht man sofort, was du anbietest?"
   },
   {
+   "id": "tikabi-pin-33",
+   "date": "2026-10-24",
+   "board": "tipps",
+   "title": "Fotos für die Website: Warum echte Bilder Vertrauen schaffen",
+   "description": "Menschen kaufen bei Menschen. Echte Fotos von dir und deiner Arbeit schaffen Nähe, die kein Stockfoto erreicht.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-33.jpg",
+   "alt": "Pin von TIKABI: Zeig dich: echte Fotos wirken"
+  },
+  {
+   "id": "tikabi-pin-34",
+   "date": "2026-10-24",
+   "board": "tipps",
+   "title": "Onepager: Die einfache Website für Selbstständige",
+   "description": "Ein Onepager ist schnell erstellt, leicht zu pflegen und führt Besucherinnen ohne Umwege zu deinem Angebot. Ideal für den Start.",
+   "link": "https://tikabi.de/webdesign?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-34.jpg",
+   "alt": "Pin von TIKABI: Alles auf einer Seite"
+  },
+  {
+   "id": "tikabi-pin-35",
+   "date": "2026-10-25",
+   "board": "tipps",
+   "title": "Webdesign für selbstständige Frauen: Lerne TIKABI kennen",
+   "description": "Ich bin Tiffany, Webdesignerin aus Biedenkopf. Ich helfe selbstständigen Frauen, ihr Angebot klar und persönlich auf ihre Website zu bringen.",
+   "link": "https://tikabi.de/ueber-mich?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-35.jpg",
+   "alt": "Pin von TIKABI: Webdesign mit Herz und Hund"
+  },
+  {
    "id": "tikabi-pin-05",
-   "date": "2026-10-23",
+   "date": "2026-10-25",
    "board": "texte",
    "title": "Website-Überschrift schreiben: Die einfache Formel",
    "description": "Deine Hauptüberschrift ist der wichtigste Satz deiner Website. Mit dieser Formel sagst du klar, was du machst, für wen und mit welchem Ergebnis. Mit Beispiel für Coachinnen und Selbstständige.",
    "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
    "image": "https://tikabi.de/assets/pins/pin-05.jpg",
    "alt": "Pin von TIKABI: Die Formel für deine Überschrift"
+  },
+  {
+   "id": "tikabi-pin-36",
+   "date": "2026-10-25",
+   "board": "tipps",
+   "title": "Kostenloser Website-Selbstcheck für Selbstständige",
+   "description": "Finde in zehn Minuten heraus, wo deine Website schon überzeugt und wo es hakt. Kostenlos, mit klaren Fragen zum Ankreuzen.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin#selbstcheck",
+   "image": "https://tikabi.de/assets/pins/pin-36.jpg",
+   "alt": "Pin von TIKABI: Der 10-Minuten-Selbstcheck"
+  },
+  {
+   "id": "tikabi-pin-37",
+   "date": "2026-10-26",
+   "board": "tipps",
+   "title": "Website-Analyse in Minuten statt Wochen",
+   "description": "Website eintragen, kurz warten, Bericht lesen: Der TIKABI Website-Check zeigt dir in wenigen Minuten, was gut ist und was du verbessern kannst.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-37.jpg",
+   "alt": "Pin von TIKABI: Keine Wochen warten. Sofort wissen."
+  },
+  {
+   "id": "tikabi-pin-38",
+   "date": "2026-10-26",
+   "board": "texte",
+   "title": "Website-Arbeitsbuch: Struktur und Texte für deine ganze Website",
+   "description": "Der komplette Website-Guide führt dich mit Fragen und Vorlagen durch jede Seite deiner Website. In deinem Tempo, ohne Kursplan.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-38.jpg",
+   "alt": "Pin von TIKABI: Deine Website, Seite für Seite"
   },
   {
    "id": "tikabi-pin-06",
@@ -66,8 +246,38 @@
    "alt": "Pin von TIKABI: Buttons, die geklickt werden"
   },
   {
-   "id": "tikabi-pin-07",
+   "id": "tikabi-pin-39",
    "date": "2026-10-27",
+   "board": "tipps",
+   "title": "Der häufigste Website-Fehler bei Selbstständigen",
+   "description": "Fachbegriffe, eine Überschrift ohne Angebot, zu viele Angebote auf einmal: So verlierst du Besucherinnen in den ersten Sekunden.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-39.jpg",
+   "alt": "Pin von TIKABI: Fehler Nr. 1: Niemand versteht dich"
+  },
+  {
+   "id": "tikabi-pin-40",
+   "date": "2026-10-27",
+   "board": "tipps",
+   "title": "Website entrümpeln: Warum weniger mehr ist",
+   "description": "Jede zusätzliche Option lässt Besucherinnen zögern. Zeig das Wichtigste und lass den Rest weg, dann wird deine Website klarer.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-40.jpg",
+   "alt": "Pin von TIKABI: Weniger ist mehr"
+  },
+  {
+   "id": "tikabi-pin-41",
+   "date": "2026-10-27",
+   "board": "texte",
+   "title": "Über-mich-Text schreiben: Die einfache 3-Absatz-Formel",
+   "description": "Wer du bist, warum du das machst und wie es weitergeht: Mit dieser einfachen Struktur schreibst du deine Über-mich-Seite an einem Nachmittag.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-41.jpg",
+   "alt": "Pin von TIKABI: Dein Über mich in 3 Absätzen"
+  },
+  {
+   "id": "tikabi-pin-07",
+   "date": "2026-10-28",
    "board": "texte",
    "title": "Über-mich-Seite schreiben: 5 Fragen, die dir helfen",
    "description": "Deine Über-mich-Seite gehört zu den meistbesuchten Seiten deiner Website. Diese fünf Fragen helfen dir, persönlich und klar über dich zu schreiben, ohne dich zu verbiegen.",
@@ -76,8 +286,38 @@
    "alt": "Pin von TIKABI: 5 Fragen für deine Über-mich-Seite"
   },
   {
-   "id": "tikabi-pin-08",
+   "id": "tikabi-pin-42",
    "date": "2026-10-28",
+   "board": "tipps",
+   "title": "Der Daumen-Test für deine Website auf dem Handy",
+   "description": "Halte dein Handy in einer Hand. Erreichst du den wichtigsten Button mit dem Daumen? Wenn nicht, wird er seltener geklickt.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-42.jpg",
+   "alt": "Pin von TIKABI: Der Daumen-Test"
+  },
+  {
+   "id": "tikabi-pin-43",
+   "date": "2026-10-28",
+   "board": "google",
+   "title": "Seitentitel für Google: Die einfache Formel",
+   "description": "Der Seitentitel ist das Erste, was Menschen bei Google von dir sehen. Mit dieser Formel sagt er sofort, was du anbietest und für wen.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-43.jpg",
+   "alt": "Pin von TIKABI: Der perfekte Seitentitel"
+  },
+  {
+   "id": "tikabi-pin-44",
+   "date": "2026-10-29",
+   "board": "google",
+   "title": "KI-Sichtbarkeit: 3 Dinge, die auf deiner Website stehen müssen",
+   "description": "Damit KI-Assistenten dich empfehlen können, brauchen sie klare Informationen. Diese drei gehören wörtlich auf deine Website.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-44.jpg",
+   "alt": "Pin von TIKABI: 3 Dinge, die KI über dich wissen muss"
+  },
+  {
+   "id": "tikabi-pin-08",
+   "date": "2026-10-29",
    "board": "tipps",
    "title": "Website-Checkliste vor dem Launch für Selbstständige",
    "description": "Bevor deine Website online geht: Mit dieser Checkliste vergisst du nichts Wichtiges, von Impressum bis Handy-Ansicht. Für Selbstständige, die ihre Website selbst bauen.",
@@ -86,8 +326,38 @@
    "alt": "Pin von TIKABI: Checkliste für deine neue Website"
   },
   {
-   "id": "tikabi-pin-09",
+   "id": "tikabi-pin-45",
    "date": "2026-10-29",
+   "board": "texte",
+   "title": "Wo gehört der Button auf der Website hin?",
+   "description": "Ein Button ganz unten reicht nicht. Diese drei Stellen sorgen dafür, dass interessierte Besucherinnen nie lange suchen müssen.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-45.jpg",
+   "alt": "Pin von TIKABI: Wohin mit dem Button?"
+  },
+  {
+   "id": "tikabi-pin-46",
+   "date": "2026-10-30",
+   "board": "tipps",
+   "title": "Warum Kundenstimmen auf deiner Website so wichtig sind",
+   "description": "Ein Satz einer zufriedenen Kundin überzeugt oft mehr als ein ganzer Absatz über dich selbst. So setzt du Stimmen gezielt ein.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-46.jpg",
+   "alt": "Pin von TIKABI: Lass andere für dich sprechen"
+  },
+  {
+   "id": "tikabi-pin-47",
+   "date": "2026-10-30",
+   "board": "tipps",
+   "title": "Website pflegen: Die 15-Minuten-Routine pro Monat",
+   "description": "Eine Website ist nie ganz fertig. Mit dieser kleinen Routine bleibt sie aktuell, funktioniert zuverlässig und wird besser gefunden.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-47.jpg",
+   "alt": "Pin von TIKABI: Pflege: einmal im Monat"
+  },
+  {
+   "id": "tikabi-pin-09",
+   "date": "2026-10-30",
    "board": "tipps",
    "title": "Warum meine Website keine Anfragen bringt: 5 Gründe",
    "description": "Viele Besucher, aber keine Anfragen? Meist liegt es an diesen fünf Punkten. Der Website-Check zeigt dir in wenigen Minuten, welche davon auf deine Website zutreffen und was du tun kannst.",
@@ -96,14 +366,74 @@
    "alt": "Pin von TIKABI: 5 Gründe, warum deine Website still bleibt"
   },
   {
+   "id": "tikabi-pin-48",
+   "date": "2026-10-31",
+   "board": "tipps",
+   "title": "Website allein machen? Du hast drei Möglichkeiten",
+   "description": "Selber machen mit einem Guide, Feedback holen mit dem Website-Check oder die Umsetzung abgeben: Du entscheidest, wie viel Hilfe du brauchst.",
+   "link": "https://tikabi.de/?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-48.jpg",
+   "alt": "Pin von TIKABI: Du musst nicht alles allein machen"
+  },
+  {
+   "id": "tikabi-pin-49",
+   "date": "2026-10-31",
+   "board": "texte",
+   "title": "Website-Text-Formel: Problem, Lösung, nächster Schritt",
+   "description": "Mit dieser einfachen Formel schreibst du Abschnitte, die verstanden werden und zum Handeln einladen. Mit Beispiel zum Übernehmen.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-49.jpg",
+   "alt": "Pin von TIKABI: Die Problem-Lösung-Formel"
+  },
+  {
+   "id": "tikabi-pin-50",
+   "date": "2026-10-31",
+   "board": "tipps",
+   "title": "Stockfotos auf der Website: Warum echte Bilder besser sind",
+   "description": "Stockfotos wirken austauschbar und zeigen nicht dich. Echte Fotos schaffen Nähe und Vertrauen, auch mit dem Handy aufgenommen.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-50.jpg",
+   "alt": "Pin von TIKABI: Stockfotos? Lieber nicht."
+  },
+  {
    "id": "tikabi-pin-10",
-   "date": "2026-10-30",
+   "date": "2026-11-01",
    "board": "tipps",
    "title": "Website auf dem Handy prüfen: 4 einfache Tests",
    "description": "Die meisten Besucherinnen kommen über das Handy. Mit diesen vier Tests siehst du schnell, ob deine Website mobil funktioniert, oder ob du Anfragen verlierst.",
    "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
    "image": "https://tikabi.de/assets/pins/pin-10.jpg",
    "alt": "Pin von TIKABI: 4 Dinge, die du auf dem Handy prüfen solltest"
+  },
+  {
+   "id": "tikabi-pin-51",
+   "date": "2026-11-01",
+   "board": "tipps",
+   "title": "Onepager aufbauen: Diese 4 Bereiche gehören drauf",
+   "description": "Angebot, Über mich, Stimmen und Kontakt: Mit diesen vier Bereichen ist dein Onepager komplett und führt direkt zur Anfrage.",
+   "link": "https://tikabi.de/webdesign?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-51.jpg",
+   "alt": "Pin von TIKABI: Was auf einen Onepager gehört"
+  },
+  {
+   "id": "tikabi-pin-52",
+   "date": "2026-11-01",
+   "board": "tipps",
+   "title": "Webdesignerin für Selbstständige: Ehrlich und verständlich",
+   "description": "Bei mir bekommst du keine Fachbegriffe, sondern klare Worte und Unterstützung, die zu dir passt. Lerne mich und TIKABI kennen.",
+   "link": "https://tikabi.de/ueber-mich?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-52.jpg",
+   "alt": "Pin von TIKABI: Ehrliches Feedback, verständlich erklärt"
+  },
+  {
+   "id": "tikabi-pin-53",
+   "date": "2026-11-02",
+   "board": "tipps",
+   "title": "Wo steht deine Website? Der kostenlose Selbstcheck",
+   "description": "Der kostenlose Selbstcheck zeigt dir in zehn Minuten, wo deine Website schon überzeugt und wo es hakt. Dazu gibt es Impulse per Newsletter.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin#selbstcheck",
+   "image": "https://tikabi.de/assets/pins/pin-53.jpg",
+   "alt": "Pin von TIKABI: Wo steht deine Website?"
   },
   {
    "id": "tikabi-pin-11",
@@ -116,6 +446,36 @@
    "alt": "Pin von TIKABI: Website-Texte schreiben ohne Blockade"
   },
   {
+   "id": "tikabi-pin-54",
+   "date": "2026-11-02",
+   "board": "tipps",
+   "title": "Website-Check: Das steckt im Bericht",
+   "description": "Gesamtnote, zehn Bereiche, schnelle Verbesserungen und Textvorschläge: So sieht der Bericht des TIKABI Website-Checks aus.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-54.jpg",
+   "alt": "Pin von TIKABI: Das bekommst du im Website-Check"
+  },
+  {
+   "id": "tikabi-pin-55",
+   "date": "2026-11-03",
+   "board": "texte",
+   "title": "Website-Texte schreiben mit Fragen statt leerem Blatt",
+   "description": "Der Website-Guide stellt dir die richtigen Fragen. Aus deinen Antworten entstehen deine Website-Texte fast von allein.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-55.jpg",
+   "alt": "Pin von TIKABI: Fragen statt leeres Blatt"
+  },
+  {
+   "id": "tikabi-pin-56",
+   "date": "2026-11-03",
+   "board": "tipps",
+   "title": "Website machen lassen: Wann es sich lohnt",
+   "description": "Wenig Zeit, keine Lust auf Technik und der Wunsch, dass es richtig gut wird? Dann lohnt es sich, die Umsetzung abzugeben.",
+   "link": "https://tikabi.de/webdesign?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-56.jpg",
+   "alt": "Pin von TIKABI: Wann sich Webdesign lohnt"
+  },
+  {
    "id": "tikabi-pin-12",
    "date": "2026-11-03",
    "board": "tipps",
@@ -126,8 +486,38 @@
    "alt": "Pin von TIKABI: Welche Hilfe passt zu dir?"
   },
   {
-   "id": "tikabi-pin-13",
+   "id": "tikabi-pin-57",
    "date": "2026-11-04",
+   "board": "google",
+   "title": "Warum Google deine Website übersieht: 4 Gründe",
+   "description": "Kein klarer Seitentitel, keine Sitemap, zu wenig Text oder eine langsame Seite: Diese vier Gründe halten dich bei Google unsichtbar.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-57.jpg",
+   "alt": "Pin von TIKABI: Warum Google dich übersieht"
+  },
+  {
+   "id": "tikabi-pin-58",
+   "date": "2026-11-04",
+   "board": "texte",
+   "title": "Startseite gliedern: Die beste Reihenfolge",
+   "description": "Erst das Angebot, dann für wen, dann wie es funktioniert: Diese Reihenfolge führt Besucherinnen logisch durch deine Startseite.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-58.jpg",
+   "alt": "Pin von TIKABI: Die beste Reihenfolge für deine Startseite"
+  },
+  {
+   "id": "tikabi-pin-59",
+   "date": "2026-11-04",
+   "board": "texte",
+   "title": "Website-Texte, die verbinden: 3 einfache Regeln",
+   "description": "Ihre Worte statt Fachsprache, du statt Sie, kurze Sätze: Mit diesen drei Regeln fühlt sich deine Besucherin sofort angesprochen.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-59.jpg",
+   "alt": "Pin von TIKABI: Texte, die verbinden"
+  },
+  {
+   "id": "tikabi-pin-13",
+   "date": "2026-11-05",
    "board": "google",
    "title": "Bei Google gefunden werden: 5 Basics für Selbstständige",
    "description": "Ohne teure Agentur bei Google sichtbar werden: Mit diesen fünf Grundlagen machst du es Google leicht, deine Website zu verstehen. Ideal für lokale Selbstständige.",
@@ -136,8 +526,38 @@
    "alt": "Pin von TIKABI: So findet Google deine Website"
   },
   {
-   "id": "tikabi-pin-14",
+   "id": "tikabi-pin-60",
    "date": "2026-11-05",
+   "board": "tipps",
+   "title": "Website zu langsam? 3 schnelle Lösungen",
+   "description": "Eine langsame Website kostet Besucherinnen. Diese drei einfachen Schritte machen deine Seite spürbar schneller.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-60.jpg",
+   "alt": "Pin von TIKABI: Lädt deine Seite zu langsam?"
+  },
+  {
+   "id": "tikabi-pin-61",
+   "date": "2026-11-05",
+   "board": "google",
+   "title": "Lokal bei Google gefunden werden: So geht es",
+   "description": "Nenne deinen Ort auf der Website und leg ein Google-Unternehmensprofil an. So finden dich Kundinnen aus der Nähe.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-61.jpg",
+   "alt": "Pin von TIKABI: Gefunden in deiner Region"
+  },
+  {
+   "id": "tikabi-pin-62",
+   "date": "2026-11-06",
+   "board": "google",
+   "title": "FAQ auf der Website: Warum sie für Google und KI so wertvoll sind",
+   "description": "Fragen und Antworten auf deiner Website helfen Besucherinnen, Google und KI-Assistenten gleichzeitig. So baust du sie richtig ein.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-62.jpg",
+   "alt": "Pin von TIKABI: Häufige Fragen: Gold für KI"
+  },
+  {
+   "id": "tikabi-pin-14",
+   "date": "2026-11-06",
    "board": "google",
    "title": "Von ChatGPT empfohlen werden: So wird deine Website KI-freundlich",
    "description": "Immer mehr Menschen fragen ChatGPT statt Google. Damit KI-Assistenten dein Angebot finden und empfehlen, muss deine Website klar sagen, wer du bist, was du anbietest und für wen.",
@@ -146,14 +566,74 @@
    "alt": "Pin von TIKABI: So empfiehlt dich ChatGPT"
   },
   {
-   "id": "tikabi-pin-15",
+   "id": "tikabi-pin-63",
    "date": "2026-11-06",
+   "board": "texte",
+   "title": "Ein Ziel pro Seite: So wird deine Website klarer",
+   "description": "Jede Seite deiner Website sollte genau eine Hauptaufgabe haben: buchen, anfragen oder mehr erfahren. Das macht Entscheidungen leicht.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-63.jpg",
+   "alt": "Pin von TIKABI: Ein Ziel pro Seite"
+  },
+  {
+   "id": "tikabi-pin-64",
+   "date": "2026-11-07",
+   "board": "tipps",
+   "title": "Gute Kundenstimmen erkennen: 3 Merkmale",
+   "description": "Ein konkretes Ergebnis, ein echter Name und ein Gefühl: Diese drei Dinge machen aus einem netten Satz eine überzeugende Kundenstimme.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-64.jpg",
+   "alt": "Pin von TIKABI: Was eine gute Kundenstimme ausmacht"
+  },
+  {
+   "id": "tikabi-pin-65",
+   "date": "2026-11-07",
+   "board": "tipps",
+   "title": "Website-Launch planen: So schaffst du es wirklich",
+   "description": "Setz dir ein Datum, arbeite Seite für Seite und feiere den Launch. Der komplette Website-Guide begleitet dich dabei.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-65.jpg",
+   "alt": "Pin von TIKABI: Plane deinen Website-Launch"
+  },
+  {
+   "id": "tikabi-pin-15",
+   "date": "2026-11-07",
    "board": "tipps",
    "title": "Vertrauen auf der Website aufbauen: 3 einfache Dinge",
    "description": "Menschen kaufen bei Menschen. Mit Kundenstimmen, einem echten Foto und klaren Angeboten fühlen sich Besucherinnen sicher genug, dich anzufragen.",
    "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
    "image": "https://tikabi.de/assets/pins/pin-15.jpg",
    "alt": "Pin von TIKABI: 3 Dinge, die Vertrauen schaffen"
+  },
+  {
+   "id": "tikabi-pin-66",
+   "date": "2026-11-08",
+   "board": "tipps",
+   "title": "Du brauchst keine perfekte Website",
+   "description": "Eine Website muss nicht perfekt sein. Sie muss klar sein, zu dir passen und Anfragen bringen. Alles andere kommt mit der Zeit.",
+   "link": "https://tikabi.de/?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-66.jpg",
+   "alt": "Pin von TIKABI: Du brauchst keine perfekte Website"
+  },
+  {
+   "id": "tikabi-pin-67",
+   "date": "2026-11-08",
+   "board": "texte",
+   "title": "Roter Faden für die Website: 3 Fragen, die alles klären",
+   "description": "Was ist ihr Problem? Wie hilfst du? Was soll sie jetzt tun? Wer diese drei Fragen beantwortet, hat den roten Faden seiner Website gefunden.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-67.jpg",
+   "alt": "Pin von TIKABI: Dein roter Faden in 3 Fragen"
+  },
+  {
+   "id": "tikabi-pin-68",
+   "date": "2026-11-08",
+   "board": "tipps",
+   "title": "Einheitliche Bildsprache für deine Website",
+   "description": "Ähnliche Farben, ähnliches Licht: So wirkt deine Website wie aus einem Guss, auch mit einfachen Mitteln und Handyfotos.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-68.jpg",
+   "alt": "Pin von TIKABI: Einheitliche Bilder, ruhiger Auftritt"
   },
   {
    "id": "tikabi-pin-16",
@@ -166,6 +646,36 @@
    "alt": "Pin von TIKABI: Reicht eine einzige Seite?"
   },
   {
+   "id": "tikabi-pin-69",
+   "date": "2026-11-09",
+   "board": "tipps",
+   "title": "Onepager oder mehrere Seiten? So entscheidest du",
+   "description": "Ein klares Angebot passt auf einen Onepager. Mehrere Angebote oder ein Blog brauchen Unterseiten. So findest du die richtige Größe.",
+   "link": "https://tikabi.de/webdesign?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-69.jpg",
+   "alt": "Pin von TIKABI: Onepager oder mehrere Seiten?"
+  },
+  {
+   "id": "tikabi-pin-70",
+   "date": "2026-11-09",
+   "board": "tipps",
+   "title": "Webdesign mit Klarheit: Was TIKABI antreibt",
+   "description": "Klarheit statt Chaos, Technik einfach erklärt und Verlässlichkeit: Dafür steht TIKABI. Lerne mich und meine Arbeitsweise kennen.",
+   "link": "https://tikabi.de/ueber-mich?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-70.jpg",
+   "alt": "Pin von TIKABI: Klarheit statt Chaos"
+  },
+  {
+   "id": "tikabi-pin-71",
+   "date": "2026-11-10",
+   "board": "tipps",
+   "title": "Kostenlos: Website-Selbstcheck und Tipps per Newsletter",
+   "description": "Hol dir den kostenlosen Website-Selbstcheck als PDF und bekomme regelmäßig Impulse für deine Website. Jederzeit abmeldbar.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin#selbstcheck",
+   "image": "https://tikabi.de/assets/pins/pin-71.jpg",
+   "alt": "Pin von TIKABI: Selbstcheck plus Impulse"
+  },
+  {
    "id": "tikabi-pin-17",
    "date": "2026-11-10",
    "board": "tipps",
@@ -174,6 +684,36 @@
    "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
    "image": "https://tikabi.de/assets/pins/pin-17.jpg",
    "alt": "Pin von TIKABI: Welche Seiten brauchst du wirklich?"
+  },
+  {
+   "id": "tikabi-pin-72",
+   "date": "2026-11-10",
+   "board": "tipps",
+   "title": "Der erste Eindruck deiner Website: Was Besucherinnen sehen",
+   "description": "Der Website-Check bewertet deine Website aus Sicht einer fremden Besucherin und zeigt dir, was du sofort verbessern kannst.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-72.jpg",
+   "alt": "Pin von TIKABI: Was sie in 5 Sekunden sieht"
+  },
+  {
+   "id": "tikabi-pin-73",
+   "date": "2026-11-11",
+   "board": "texte",
+   "title": "Website-Guides für Selbstständige: Welcher passt zu dir?",
+   "description": "Fehler finden, Startseite schreiben oder die ganze Website planen: Die drei TIKABI-Guides helfen dir bei genau dem Schritt, an dem du gerade stehst.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-73.jpg",
+   "alt": "Pin von TIKABI: Welcher Guide passt zu dir?"
+  },
+  {
+   "id": "tikabi-pin-74",
+   "date": "2026-11-11",
+   "board": "tipps",
+   "title": "Website-Feedback von außen: Warum es so viel bringt",
+   "description": "Manchmal braucht es keine neue Website, sondern ein paar gezielte Änderungen. Der Website-Check zeigt dir, welche.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-74.jpg",
+   "alt": "Pin von TIKABI: Ein frischer Blick von außen"
   },
   {
    "id": "tikabi-pin-18",
@@ -186,8 +726,38 @@
    "alt": "Pin von TIKABI: 4 Tipps für bessere Website-Bilder"
   },
   {
-   "id": "tikabi-pin-19",
+   "id": "tikabi-pin-75",
    "date": "2026-11-12",
+   "board": "tipps",
+   "title": "Kleine Website-Fehler mit großer Wirkung",
+   "description": "Ein Tippfehler in der Überschrift, ein toter Link im Menü, fehlende Kontaktdaten: Kleine Fehler kosten schnell Vertrauen.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-75.jpg",
+   "alt": "Pin von TIKABI: Kleine Fehler, große Wirkung"
+  },
+  {
+   "id": "tikabi-pin-76",
+   "date": "2026-11-12",
+   "board": "texte",
+   "title": "Website planen: Erst Struktur, dann Design",
+   "description": "Wer zuerst weiß, was auf welche Seite gehört, spart sich stundenlanges Hin- und Herschieben im Baukasten.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-76.jpg",
+   "alt": "Pin von TIKABI: Erst Struktur, dann Design"
+  },
+  {
+   "id": "tikabi-pin-77",
+   "date": "2026-11-12",
+   "board": "texte",
+   "title": "Schreibblockade bei Website-Texten: 3 Tricks",
+   "description": "Sprachnachricht aufnehmen, Fragen deiner Kundinnen sammeln, erst schreiben und später kürzen: So kommst du ins Schreiben.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-77.jpg",
+   "alt": "Pin von TIKABI: Schreibblockade? Probier das"
+  },
+  {
+   "id": "tikabi-pin-19",
+   "date": "2026-11-13",
    "board": "texte",
    "title": "Der rote Faden für deine Website: Problem, Lösung, nächster Schritt",
    "description": "Viele Websites zeigen alles auf einmal. Mit diesem einfachen roten Faden führst du Besucherinnen Schritt für Schritt zu deinem Angebot und zur Anfrage.",
@@ -196,14 +766,144 @@
    "alt": "Pin von TIKABI: Problem. Lösung. Nächster Schritt."
   },
   {
-   "id": "tikabi-pin-20",
+   "id": "tikabi-pin-78",
    "date": "2026-11-13",
+   "board": "tipps",
+   "title": "Mobile First: Gestalte deine Website zuerst fürs Handy",
+   "description": "Wenn deine Website auf dem kleinen Bildschirm funktioniert, funktioniert sie überall. So setzt du Mobile First einfach um.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-78.jpg",
+   "alt": "Pin von TIKABI: Gestalte zuerst fürs Handy"
+  },
+  {
+   "id": "tikabi-pin-79",
+   "date": "2026-11-13",
+   "board": "google",
+   "title": "Meta-Beschreibung schreiben: Deine Mini-Werbung bei Google",
+   "description": "Die Meta-Beschreibung ist der kurze Text unter deinem Seitentitel bei Google. So schreibst du ihn, damit mehr Menschen klicken.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-79.jpg",
+   "alt": "Pin von TIKABI: Deine Mini-Werbung bei Google"
+  },
+  {
+   "id": "tikabi-pin-80",
+   "date": "2026-11-14",
+   "board": "google",
+   "title": "Klartext statt Fachsprache: So versteht dich KI",
+   "description": "Je konkreter du schreibst, desto besser verstehen dich Besucherinnen, Google und KI-Assistenten. Ein Beispiel zeigt den Unterschied.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-80.jpg",
+   "alt": "Pin von TIKABI: KI versteht Klartext"
+  },
+  {
+   "id": "tikabi-pin-20",
+   "date": "2026-11-14",
    "board": "tipps",
    "title": "Website-Check für Selbstständige: Analyse in wenigen Minuten",
    "description": "Du willst wissen, warum deine Website nicht funktioniert? Der TIKABI Website-Check analysiert deine Seiten in wenigen Minuten: Botschaft, Texte, Design, Handy, Technik und Google. Mit konkreten Vorschlägen.",
    "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
    "image": "https://tikabi.de/assets/pins/pin-20.jpg",
    "alt": "Pin von TIKABI: Deine Website analysiert in Minuten"
+  },
+  {
+   "id": "tikabi-pin-81",
+   "date": "2026-11-14",
+   "board": "texte",
+   "title": "Button-Design: So fällt dein wichtigster Button auf",
+   "description": "Eine Akzentfarbe nur für Buttons und genug Platz drumherum: So sehen Besucherinnen sofort, wo es weitergeht.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-81.jpg",
+   "alt": "Pin von TIKABI: Fällt dein Button auf?"
+  },
+  {
+   "id": "tikabi-pin-82",
+   "date": "2026-11-15",
+   "board": "tipps",
+   "title": "Vertrauen auf der Website: Der erste Blick zählt",
+   "description": "Ein echtes Foto, klare Preise und Stimmen deiner Kundinnen: So fühlt sich deine Besucherin sicher genug, dich anzufragen.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-82.jpg",
+   "alt": "Pin von TIKABI: Vertrauen beginnt beim ersten Blick"
+  },
+  {
+   "id": "tikabi-pin-83",
+   "date": "2026-11-15",
+   "board": "tipps",
+   "title": "Pflichtangaben auf der Website: Das gehört dazu",
+   "description": "Impressum und Datenschutzerklärung gehören auf jede geschäftliche Website. Diese Punkte solltest du vor dem Start auf dem Schirm haben.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-83.jpg",
+   "alt": "Pin von TIKABI: Rechtliches auf deiner Website"
+  },
+  {
+   "id": "tikabi-pin-84",
+   "date": "2026-11-15",
+   "board": "tipps",
+   "title": "TIKABI: Webdesign und digitale Helfer für selbstständige Frauen",
+   "description": "Ob Guide, Website-Check oder Webdesign: Bei TIKABI findest du die Unterstützung, die gerade zu dir und deinem Business passt.",
+   "link": "https://tikabi.de/?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-84.jpg",
+   "alt": "Pin von TIKABI: Dein Business. Dein nächster Schritt."
+  },
+  {
+   "id": "tikabi-pin-85",
+   "date": "2026-11-16",
+   "board": "texte",
+   "title": "Zwischenüberschriften auf der Website: So helfen sie beim Lesen",
+   "description": "Die meisten Besucherinnen überfliegen deine Seite. Gute Zwischenüberschriften zeigen ihnen sofort, wo sie finden, was sie suchen.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-85.jpg",
+   "alt": "Pin von TIKABI: Überschriften als Wegweiser"
+  },
+  {
+   "id": "tikabi-pin-86",
+   "date": "2026-11-16",
+   "board": "google",
+   "title": "Bilder für Google optimieren: Dateinamen und Alternativtext",
+   "description": "Sprechende Dateinamen, ein Alternativtext und kleine Dateien: So helfen deine Bilder auch dabei, bei Google gefunden zu werden.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-86.jpg",
+   "alt": "Pin von TIKABI: Bilder richtig benennen"
+  },
+  {
+   "id": "tikabi-pin-87",
+   "date": "2026-11-16",
+   "board": "tipps",
+   "title": "Website Basic: Deine individuell gestaltete Startseite",
+   "description": "Ich gestalte dir eine individuelle Startseite, die dein Angebot klar zeigt. Mit Texten, Basis-SEO, Kontaktformular und Einweisung.",
+   "link": "https://tikabi.de/webdesign?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-87.jpg",
+   "alt": "Pin von TIKABI: Deine Startseite, gestaltet für dich"
+  },
+  {
+   "id": "tikabi-pin-88",
+   "date": "2026-11-17",
+   "board": "tipps",
+   "title": "Kreativer Kopf und Techniknerd: Webdesign mit TIKABI",
+   "description": "Design mit Blick fürs Ganze, Technik verständlich erklärt und KI als Werkzeug: So arbeite ich bei TIKABI für selbstständige Frauen.",
+   "link": "https://tikabi.de/ueber-mich?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-88.jpg",
+   "alt": "Pin von TIKABI: Kreativer Kopf. Techniknerd."
+  },
+  {
+   "id": "tikabi-pin-89",
+   "date": "2026-11-17",
+   "board": "tipps",
+   "title": "Website-Tipps per Newsletter plus kostenloser Selbstcheck",
+   "description": "Hol dir den kostenlosen Selbstcheck und bekomme regelmäßig Tipps für Struktur, Texte und Sichtbarkeit deiner Website.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin#selbstcheck",
+   "image": "https://tikabi.de/assets/pins/pin-89.jpg",
+   "alt": "Pin von TIKABI: Impulse für deine Website"
+  },
+  {
+   "id": "tikabi-pin-90",
+   "date": "2026-11-17",
+   "board": "tipps",
+   "title": "Website-Check mit Gutschein für Webdesign",
+   "description": "Starte mit dem Website-Check für 97 €. Buchst du danach Website Basic, werden die 97 € mit deinem persönlichen Gutschein angerechnet.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-90.jpg",
+   "alt": "Pin von TIKABI: Check jetzt, Webdesign später"
   }
  ]
 }
