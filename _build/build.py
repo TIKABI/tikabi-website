@@ -19,6 +19,48 @@ SITE = "https://tikabi.de"
 NO_SITEMAP = set()
 
 
+ORG = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": SITE + "/#tikabi",
+    "name": "TIKABI",
+    "description": "Webdesign und digitale Helfer für selbstständige Frauen: PDF-Guides, Website-Check und individuelles Webdesign.",
+    "url": SITE + "/",
+    "email": "hello@tikabi.de",
+    "image": SITE + "/assets/img/og-tikabi.jpg",
+    "address": {"@type": "PostalAddress", "addressLocality": "Biedenkopf", "addressRegion": "Hessen", "addressCountry": "DE"},
+    "areaServed": "DE",
+    "founder": {"@type": "Person", "name": "Tiffany Katz", "jobTitle": "Webdesignerin"},
+    "sameAs": ["https://www.instagram.com/tikabiwebdesign/", "https://de.pinterest.com/TIKABIwebdesign/"],
+}
+
+GUIDES = [
+    ("7 Website-Fehler", "PDF-Guide: Erkenne, was deine Besucherinnen ausbremst.", "7.00", "PAYHIP_FEHLER", "assets/img/cover-fehler.webp"),
+    ("Eine Startseite mit Klarheit", "PDF-Guide: Bringe dein Angebot in sieben Schritten auf den Punkt.", "9.00", "PAYHIP_STARTSEITE", "assets/img/cover-startseite.webp"),
+    ("Der komplette Website-Guide", "PDF-Arbeitsbuch für Struktur und Texte deiner gesamten Website.", "47.00", "PAYHIP_KOMPLETT", "assets/img/cover-komplett.webp"),
+]
+
+
+def strip_tags(html):
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html)).replace(" ,", ",").replace(" .", ".").strip()
+
+
+def jsonld(filename, main):
+    blocks = []
+    if filename == "index.html":
+        blocks.append(ORG)
+    if filename == "shop.html":
+        for name, desc, price, link, img in GUIDES:
+            blocks.append({"@context": "https://schema.org", "@type": "Product", "name": name, "description": desc,
+                           "image": f"{SITE}/{img}", "brand": {"@id": SITE + "/#tikabi"},
+                           "offers": {"@type": "Offer", "price": price, "priceCurrency": "EUR", "availability": "https://schema.org/InStock", "url": links[link]}})
+    faqs = re.findall(r'<details name="faq"[^>]*><summary>(.*?)</summary><div class="answer">(.*?)</div></details>', main, re.S)
+    if faqs:
+        blocks.append({"@context": "https://schema.org", "@type": "FAQPage",
+                       "mainEntity": [{"@type": "Question", "name": strip_tags(q), "acceptedAnswer": {"@type": "Answer", "text": strip_tags(a)}} for q, a in faqs]})
+    return "\n".join('<script type="application/ld+json">' + json.dumps(b, ensure_ascii=False).replace("</", "<\\/") + "</script>" for b in blocks)
+
+
 def canonical(filename):
     # Netlify liefert jede Seite auch ohne .html aus. Die Adresse ohne Endung ist die "richtige".
     return SITE + "/" if filename == "index.html" else f"{SITE}/{filename[:-5]}"
@@ -43,6 +85,7 @@ for src in sorted((BUILD / "pages").glob("*.html")):
     html = (layout.replace("{{TITLE}}", meta["title"])
                   .replace("{{DESC}}", meta["description"])
                   .replace("{{CANONICAL}}", canonical(meta["file"]))
+                  .replace("{{JSONLD}}", jsonld(meta["file"], main))
                   .replace("{{PAGE}}", meta["page"])
                   .replace("{{WORLD}}", meta.get("world", "full"))
                   .replace("{{MAIN}}", main))
@@ -62,7 +105,7 @@ for src in sorted((BUILD / "pages").glob("*.html")):
     print("geschrieben:", meta["file"])
 
 # Sitemap und robots.txt für Suchmaschinen
-order = ["index.html", "webdesign.html", "shop.html", "tools.html", "ueber-mich.html", "kontakt.html"]
+order = ["index.html", "webdesign.html", "shop.html", "website-check.html", "ueber-mich.html", "kontakt.html"]
 files.sort(key=lambda f: (order.index(f) if f in order else len(order), f))
 urls = "\n".join(f"  <url><loc>{canonical(f)}</loc></url>" for f in files if f not in NO_SITEMAP)
 (OUT / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{urls}\n</urlset>\n', encoding="utf-8")

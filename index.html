@@ -6,6 +6,19 @@
 <title>TIKABI | Webdesign & digitale Helfer für selbstständige Frauen</title>
 <meta name="description" content="Zeig, was dein Business besonders macht. Mit praktischen Guides zum Selbermachen oder einer Website, die Tiffany für dich gestaltet.">
 <link rel="canonical" href="https://tikabi.de/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TIKABI">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="TIKABI | Webdesign & digitale Helfer für selbstständige Frauen">
+<meta property="og:description" content="Zeig, was dein Business besonders macht. Mit praktischen Guides zum Selbermachen oder einer Website, die Tiffany für dich gestaltet.">
+<meta property="og:url" content="https://tikabi.de/">
+<meta property="og:image" content="https://tikabi.de/assets/img/og-tikabi.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="TIKABI: Webdesign und digitale Helfer für selbstständige Frauen">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "@id": "https://tikabi.de/#tikabi", "name": "TIKABI", "description": "Webdesign und digitale Helfer für selbstständige Frauen: PDF-Guides, Website-Check und individuelles Webdesign.", "url": "https://tikabi.de/", "email": "hello@tikabi.de", "image": "https://tikabi.de/assets/img/og-tikabi.jpg", "address": {"@type": "PostalAddress", "addressLocality": "Biedenkopf", "addressRegion": "Hessen", "addressCountry": "DE"}, "areaServed": "DE", "founder": {"@type": "Person", "name": "Tiffany Katz", "jobTitle": "Webdesignerin"}, "sameAs": ["https://www.instagram.com/tikabiwebdesign/", "https://de.pinterest.com/TIKABIwebdesign/"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Welcher Guide passt zu mir?", "acceptedAnswer": {"@type": "Answer", "text": "Du möchtest einzelne Schwachstellen erkennen? Starte mit dem Fehler-Guide. Für die erste Seite ist der Startseiten-Guide gedacht. Für die gesamte Website nimm den kompletten Website-Guide."}}, {"@type": "Question", "name": "Funktionieren die Guides mit jedem Website-Baukasten?", "acceptedAnswer": {"@type": "Answer", "text": "Ja. Ob Wix, WordPress, Squarespace oder ein anderes System: Die Guides helfen bei Struktur, Inhalten und Texten. Diese Grundlagen kannst du unabhängig vom Website-Baukasten nutzen. Die technische Umsetzung übernimmst du selbst."}}, {"@type": "Question", "name": "Was unterscheidet den Guide vom Website-Check?", "acceptedAnswer": {"@type": "Answer", "text": "Mit dem Guide arbeitest du selbstständig an deiner Website. Der Website-Check analysiert deine bestehende Website ausführlich und gibt dir konkrete Empfehlungen."}}, {"@type": "Question", "name": "Brauche ich für Webdesign fertige Texte?", "acceptedAnswer": {"@type": "Answer", "text": "Grundtexte reichen als Ausgangspunkt. Wenn dir das Schreiben schwerfällt, sammeln wir die wichtigsten Informationen über gezielte Fragen. Den genauen Umfang stimmen wir vorab ab."}}, {"@type": "Question", "name": "Wie lange dauert die Umsetzung?", "acceptedAnswer": {"@type": "Answer", "text": "Das hängt vom Umfang und davon ab, wann deine Inhalte vollständig vorliegen. Deinen Zeitplan vereinbaren wir vor Projektbeginn."}}, {"@type": "Question", "name": "Kann ich die Website später selbst bearbeiten?", "acceptedAnswer": {"@type": "Answer", "text": "Ja. Bei der Übergabe zeige ich dir, wie du deine Inhalte im vereinbarten Website-System selbst pflegen kannst."}}, {"@type": "Question", "name": "Bist du nach dem Launch noch für mich da?", "acceptedAnswer": {"@type": "Answer", "text": "Ja. Ich lasse dich nach dem Launch nicht allein. Du erreichst mich per E-Mail oder WhatsApp und bekommst schnell eine Antwort."}}]}</script>
 <meta name="theme-color" content="#1A1233">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="assets/fonts/playfair-var.woff2" as="font" type="font/woff2" crossorigin>
@@ -29,7 +42,8 @@
   <div class="wrap header-inner">
     <a class="brand" href="index.html" data-nav="home" aria-label="TIKABI, zur Startseite" aria-current="page">TIKABI</a>
     <nav class="main-nav" aria-label="Hauptnavigation">
-      <a href="shop.html" data-nav="guides tools">Guides &amp; digitale Helfer</a>
+      <a href="shop.html" data-nav="guides">Guides</a>
+      <a href="website-check.html" data-nav="tools">Website-Check</a>
       <a href="webdesign.html" data-nav="webdesign">Webdesign</a>
       <a href="ueber-mich.html" data-nav="about">Über mich</a>
       <a class="nav-cta" href="kontakt.html" data-nav="contact">Lass uns sprechen</a>
@@ -37,7 +51,7 @@
     <div class="header-tools">
       <button class="icon-btn map-btn" type="button" data-map-open aria-haspopup="dialog">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2-6-2zM9 4v14M15 6v14"/></svg>
-        <span class="lbl">Weltkarte</span>
+        <span class="lbl">Menü</span>
       </button>
     </div>
   </div>
@@ -81,7 +95,7 @@
       <ul class="map-nodes">
         <li><a class="map-node" href="index.html" data-nav="home" style="--x:9;--y:72;--tx:22;--ty:8" aria-current="page"><span class="here">Du bist hier</span><span class="pin"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h5v-6h4v6h5V10"/></svg></span><span class="name">Start</span></a></li>
         <li><a class="map-node" href="shop.html" data-nav="guides" style="--x:27;--y:30;--tx:74;--ty:25"><span class="here">Du bist hier</span><span class="pin"><svg viewBox="0 0 24 24"><path d="M4 4h11a3 3 0 013 3v13H7a3 3 0 01-3-3V4zM4 17a3 3 0 013-3h11"/></svg></span><span class="name">Guides</span></a></li>
-        <li><a class="map-node" href="tools.html" data-nav="tools" style="--x:47;--y:64;--tx:22;--ty:42"><span class="here">Du bist hier</span><span class="pin"><svg viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3zM19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8L19 16z"/></svg></span><span class="name">Digitale Helfer</span></a></li>
+        <li><a class="map-node" href="website-check.html" data-nav="tools" style="--x:47;--y:64;--tx:22;--ty:42"><span class="here">Du bist hier</span><span class="pin"><svg viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3zM19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8L19 16z"/></svg></span><span class="name">Website-Check</span></a></li>
         <li><a class="map-node" href="webdesign.html" data-nav="webdesign" style="--x:66;--y:28;--tx:74;--ty:59"><span class="here">Du bist hier</span><span class="pin"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="11" rx="1.5"/><path d="M2 20h20"/></svg></span><span class="name">Webdesign</span></a></li>
         <li><a class="map-node" href="ueber-mich.html" data-nav="about" style="--x:79;--y:66;--tx:22;--ty:77"><span class="here">Du bist hier</span><span class="pin"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 017-2.4A4 4 0 0119 10c0 5.6-7 10-7 10z"/></svg></span><span class="name">Über mich</span></a></li>
         <li><a class="map-node" href="kontakt.html" data-nav="contact" style="--x:91;--y:30;--tx:74;--ty:92"><span class="here">Du bist hier</span><span class="pin"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5z"/></svg></span><span class="name">Lass uns sprechen</span></a></li>
@@ -107,9 +121,9 @@
       <div class="hero-copy dv-copy">
         <p class="eyebrow">Webdesign &amp; digitale Helfer für selbstständige Frauen</p>
         <h1 id="hero-title"><span class="line">Dein Angebot.</span><span class="line">Deine Website.</span><span class="line em">Endlich klar.</span></h1>
-        <p class="lead">Zeig, was dein Business besonders macht. Mit praktischen Guides zum Selbermachen oder einer Website, die ich für dich gestalte.</p>
+        <p class="lead">Zeig, was dein Business besonders macht. Mit PDF-Guides zum Selbermachen ab 7 €, einem Website-Check in wenigen Minuten oder einer Website, die ich für dich gestalte.</p>
         <div class="btn-row">
-          <a class="btn btn-primary" href="#weg">Deinen Weg finden</a>
+          <a class="btn btn-primary" href="#weg">Welche Hilfe passt zu mir?</a>
           <a class="btn btn-secondary" href="webdesign.html">Website erstellen lassen</a>
         </div>
         <p class="hero-hint"><span class="ornament" aria-hidden="true">✦</span> Für deinen nächsten Schritt. In deinem Tempo.</p>
@@ -135,8 +149,8 @@
   </div>
 </section>
 
-<div class="marquee" aria-label="KLARHEIT, STRUKTUR, PERSÖNLICHKEIT, DEIN NÄCHSTER SCHRITT">
-  <div class="marquee-track">
+<div class="marquee" role="img" aria-label="Klarheit, Struktur, Persönlichkeit, dein nächster Schritt">
+  <div class="marquee-track" aria-hidden="true">
     <div class="marquee-group"><span>KLARHEIT</span><span class="ornament" aria-hidden="true">✦</span><span>STRUKTUR</span><span class="ornament" aria-hidden="true">✦</span><span>PERSÖNLICHKEIT</span><span class="ornament" aria-hidden="true">✦</span><span>DEIN NÄCHSTER SCHRITT</span><span class="ornament" aria-hidden="true">✦</span><span>KLARHEIT</span><span class="ornament" aria-hidden="true">✦</span><span>STRUKTUR</span><span class="ornament" aria-hidden="true">✦</span><span>PERSÖNLICHKEIT</span><span class="ornament" aria-hidden="true">✦</span><span>DEIN NÄCHSTER SCHRITT</span><span class="ornament" aria-hidden="true">✦</span></div>
     <div class="marquee-group" aria-hidden="true"><span>KLARHEIT</span><span class="ornament">✦</span><span>STRUKTUR</span><span class="ornament">✦</span><span>PERSÖNLICHKEIT</span><span class="ornament">✦</span><span>DEIN NÄCHSTER SCHRITT</span><span class="ornament">✦</span><span>KLARHEIT</span><span class="ornament">✦</span><span>STRUKTUR</span><span class="ornament">✦</span><span>PERSÖNLICHKEIT</span><span class="ornament">✦</span><span>DEIN NÄCHSTER SCHRITT</span><span class="ornament">✦</span></div>
   </div>
@@ -169,7 +183,7 @@
         </li>
         <li class="stop" data-reveal>
           <span class="stop-node" aria-hidden="true">02</span>
-          <a class="stop-body glass" href="tools.html#website-check">
+          <a class="stop-body glass" href="website-check.html#website-check">
             <p class="eyebrow">Feedback bekommen</p>
             <h3>Du brauchst einen frischen Blick.</h3>
             <p>Eine ausführliche Analyse deiner Website.</p>
@@ -219,10 +233,10 @@
         </div>
       </article>
       <article class="guide glass" data-reveal>
-        <div class="guide-cover"><img src="assets/img/cover-komplett.webp" alt="Cover des PDF-Guides „Website komplett Guide“" width="900" height="900" loading="lazy"></div>
+        <div class="guide-cover"><img src="assets/img/cover-komplett.webp" alt="Cover des PDF-Guides „Der komplette Website-Guide“" width="900" height="900" loading="lazy"></div>
         <div class="guide-body">
           <p class="eyebrow">Guide 03 · PDF</p>
-          <h3>Website komplett Guide</h3>
+          <h3>Der komplette Website-Guide</h3>
           <p>Dein Arbeitsbuch für Struktur und Texte deiner gesamten Website.</p>
           <div class="guide-buy"><p class="price"><span class="vh">Preis: </span>47 €</p><a class="btn btn-primary" href="shop.html#guide-3">Entdecken<span aria-hidden="true">→</span></a></div>
         </div>
@@ -260,7 +274,7 @@
       <h2 id="check-title" data-reveal style="margin:16px 0 26px">Ein frischer Blick auf <em>deine Website.</em></h2>
       <div class="plain" data-reveal>
         <p>Du hast schon eine Website, aber weißt nicht, wo du anfangen sollst? Der Website-Check zeigt dir in wenigen Minuten, was schon gut ist und was klarer werden kann.</p>
-        <div class="btn-row"><a class="btn btn-primary" href="tools.html#website-check">Website-Check entdecken<span aria-hidden="true">→</span></a></div>
+        <div class="btn-row"><a class="btn btn-primary" href="website-check.html#website-check">Website-Check entdecken<span aria-hidden="true">→</span></a></div>
       </div>
     </div>
     <div class="split-visual" data-parallax="0.09">
@@ -284,7 +298,8 @@
       <h2 id="about-title" data-reveal style="margin:16px 0 26px">Hallo, ich bin <em>Tiffany.</em></h2>
       <div class="plain stack" data-reveal>
         <p>Eine Website soll zu dir passen. Und für die Menschen verständlich sein, die du erreichen möchtest.</p>
-        <p>Mit TIKABI unterstütze ich selbstständige Frauen dabei, ihre Angebote klar zu zeigen. Mit digitalen Helfern zum Selbermachen, ehrlichem Feedback und persönlichem Webdesign.</p>
+        <p>Ich bin Tiffany Katz, Webdesignerin aus Biedenkopf in Hessen. Mit TIKABI unterstütze ich selbstständige Frauen dabei, ihre Angebote klar zu zeigen. Mit digitalen Helfern zum Selbermachen, ehrlichem Feedback und persönlichem Webdesign.</p>
+        <p>Zum Beispiel für Coachinnen, Fotografinnen und kleine Unternehmen aus der Region.</p>
         <div class="btn-row"><a class="btn btn-primary" href="ueber-mich.html">Mehr über mich<span aria-hidden="true">→</span></a></div>
       </div>
     </div>
@@ -340,7 +355,7 @@
     </div>
     <div class="faq-list glass" data-reveal>
       <details name="faq"><summary>Welcher Guide passt zu mir?</summary><div class="answer"><p>Du möchtest einzelne Schwachstellen erkennen? Starte mit dem Fehler-Guide. Für die erste Seite ist der Startseiten-Guide gedacht. Für die gesamte Website nimm den kompletten Website-Guide.</p></div></details>
-      <details name="faq"><summary>Funktionieren die Guides auch ohne Wix?</summary><div class="answer"><p>Ja. Die Guides helfen bei Struktur, Inhalten und Texten. Diese Grundlagen kannst du unabhängig vom Website-Baukasten nutzen. Die technische Umsetzung übernimmst du selbst.</p></div></details>
+      <details name="faq"><summary>Funktionieren die Guides mit jedem Website-Baukasten?</summary><div class="answer"><p>Ja. Ob Wix, WordPress, Squarespace oder ein anderes System: Die Guides helfen bei Struktur, Inhalten und Texten. Diese Grundlagen kannst du unabhängig vom Website-Baukasten nutzen. Die technische Umsetzung übernimmst du selbst.</p></div></details>
       <details name="faq"><summary>Was unterscheidet den Guide vom Website-Check?</summary><div class="answer"><p>Mit dem Guide arbeitest du selbstständig an deiner Website. Der Website-Check analysiert deine bestehende Website ausführlich und gibt dir konkrete Empfehlungen.</p></div></details>
       <details name="faq"><summary>Brauche ich für Webdesign fertige Texte?</summary><div class="answer"><p>Grundtexte reichen als Ausgangspunkt. Wenn dir das Schreiben schwerfällt, sammeln wir die wichtigsten Informationen über gezielte Fragen. Den genauen Umfang stimmen wir vorab ab.</p></div></details>
       <details name="faq"><summary>Wie lange dauert die Umsetzung?</summary><div class="answer"><p>Das hängt vom Umfang und davon ab, wann deine Inhalte vollständig vorliegen. Deinen Zeitplan vereinbaren wir vor Projektbeginn.</p></div></details>
@@ -385,7 +400,7 @@
         <h4>Entdecken</h4>
         <ul>
           <li><a href="shop.html">Website-Guides</a></li>
-          <li><a href="tools.html#website-check">Website-Check</a></li>
+          <li><a href="website-check.html#website-check">Website-Check</a></li>
           <li><a href="webdesign.html">Webdesign</a></li>
         </ul>
       </nav>
@@ -417,7 +432,7 @@
         <li><a href="versand.html">Versandrichtlinien</a></li>
       </ul>
     </nav>
-    <p class="footer-end">© 2026&nbsp; TIKABI. All rights reserved.</p>
+    <p class="footer-end">© 2026&nbsp; TIKABI. Alle Rechte vorbehalten.</p>
   </div>
 </footer>
 </div>
