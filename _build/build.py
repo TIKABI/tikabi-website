@@ -16,7 +16,7 @@ layout = (BUILD / "layout.html").read_text(encoding="utf-8")
 links = json.loads((BUILD / "links.json").read_text(encoding="utf-8"))
 SITE = "https://tikabi.de"
 # Seiten, die nicht in die Sitemap sollen (Rechtstexte bleiben drin, sie schaden nicht).
-NO_SITEMAP = set()
+NO_SITEMAP = {"404.html"}
 
 
 ORG = {
@@ -89,6 +89,10 @@ for src in sorted((BUILD / "pages").glob("*.html")):
                   .replace("{{PAGE}}", meta["page"])
                   .replace("{{WORLD}}", meta.get("world", "full"))
                   .replace("{{MAIN}}", main))
+    if meta["file"] == "404.html":
+        # Die Fehlerseite erscheint unter beliebigen Adressen: feste Basis für Links und Bilder, nicht indexieren.
+        html = html.replace("<head>", '<head>\n<base href="/">\n<meta name="robots" content="noindex">', 1)
+        html = re.sub(r'\n<link rel="canonical"[^>]*>', "", html)
     page = meta["page"]
 
     def add_current(m):

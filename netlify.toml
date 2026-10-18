@@ -12,3 +12,115 @@
   from = "/tools.html"
   to = "/website-check"
   status = 301
+
+# Alte Adressen der Wix-Website (Google kennt sie noch)
+[[redirects]]
+  from = "/ueberuns"
+  to = "/ueber-mich"
+  status = 301
+
+[[redirects]]
+  from = "/projekte"
+  to = "/webdesign"
+  status = 301
+
+[[redirects]]
+  from = "/websitesysteme"
+  to = "/webdesign"
+  status = 301
+
+[[redirects]]
+  from = "/rueckerstattungsrichtlinie"
+  to = "/rueckerstattung"
+  status = 301
+
+[[redirects]]
+  from = "/versandrichtlinie"
+  to = "/versand"
+  status = 301
+
+[[redirects]]
+  from = "/widerrufsbelehrung"
+  to = "/widerruf"
+  status = 301
+
+[[redirects]]
+  from = "/barrierefreiheit"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/blog"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/category/webdesign"
+  to = "/webdesign"
+  status = 301
+
+[[redirects]]
+  from = "/category/all-products"
+  to = "/shop"
+  status = 301
+
+[[redirects]]
+  from = "/category/diy"
+  to = "/shop"
+  status = 301
+
+[[redirects]]
+  from = "/category/merch"
+  to = "/shop"
+  status = 301
+
+[[redirects]]
+  from = "/category/ki-automantionen"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/product-page/website-basic"
+  to = "/webdesign"
+  status = 301
+
+[[redirects]]
+  from = "/product-page/1-zusatzseite"
+  to = "/webdesign"
+  status = 301
+
+[[redirects]]
+  from = "/product-page/buchungssystem"
+  to = "/webdesign"
+  status = 301
+
+[[redirects]]
+  from = "/product-page/seo-advanced"
+  to = "/webdesign"
+  status = 301
+
+[[redirects]]
+  from = "/product-page/shop-integration"
+  to = "/webdesign"
+  status = 301
+
+[[redirects]]
+  from = "/product-page/5-fatale-website-fehler-und-wie-du-sie-behebst"
+  to = "/shop"
+  status = 301
+
+[[redirects]]
+  from = "/product-page/diy-website-guide-in-7-schritten-zu-einer-startseite-die-verkauft"
+  to = "/shop"
+  status = 301
+
+[[redirects]]
+  from = "/product-page/*"
+  to = "/shop"
+  status = 301
+
+[[redirects]]
+  from = "/category/*"
+  to = "/shop"
+  status = 301
+
