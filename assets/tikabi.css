@@ -492,3 +492,27 @@ html.is-arriving #stage{animation:arrive 760ms var(--ease-standard) backwards}
 /* Echtes Foto als Karte (ohne weiche Maske, z. B. Querformat) */
 .photo-card{margin:0 0 18px;border-radius:var(--radius-card);overflow:hidden;border:1px solid var(--border-subtle);box-shadow:var(--shadow-card)}
 .photo-card img{width:100%;height:auto;display:block}
+
+/* Ratgeber-Artikel */
+.article{max-width:74ch;margin-inline:auto}
+.article .lead{font-size:clamp(1.1rem,1.6vw,1.3rem);color:var(--text-primary);line-height:1.7}
+.article h2{font-size:clamp(1.6rem,2.6vw,2.2rem);margin:2em 0 .6em}
+.article h3{font:600 1.15rem/1.4 var(--font-body);color:#fff;margin:1.6em 0 .4em}
+.article p,.article li{color:var(--text-secondary);font-size:clamp(1.02rem,1.3vw,1.12rem);line-height:1.8;max-width:none}
+.article p+p{margin-top:1em}
+.article ul{list-style:none;padding:0;margin:1em 0;display:grid;gap:.55em}
+.article ul li{position:relative;padding-left:1.6em}
+.article ul li::before{content:"";position:absolute;left:.2em;top:.75em;width:8px;height:8px;border-radius:50%;background:var(--color-pink)}
+.article a:not(.btn){color:var(--text-accent);text-decoration:underline;text-underline-offset:3px}
+.article strong{color:#fff}
+.article .example{margin:1.2em 0;padding:18px 22px;border-left:3px solid var(--color-pink);border-radius:0 var(--radius-small) var(--radius-small) 0;background:rgba(255,0,152,.08);font-family:var(--font-heading);font-style:italic;font-size:1.2rem;color:#fff}
+.article .meta{font-size:14px;color:var(--text-muted);margin-top:10px}
+.article-cta{margin:2.4em 0 0;padding:clamp(22px,3vw,34px);border-radius:var(--radius-card);border:1px solid var(--border-accent);background:linear-gradient(125deg,rgba(255,0,152,.14),rgba(45,27,105,.35) 60%,rgba(255,255,255,.03)),rgba(26,18,51,.7)}
+.article-cta h3{margin-top:0;font-family:var(--font-heading);font-weight:500;font-size:1.5rem}
+.article-cta .btn-row{margin-top:18px}
+.article-list{display:grid;gap:18px;max-width:900px}
+.article-card{display:block;padding:clamp(22px,3vw,32px);transition:transform var(--duration-base) var(--ease-standard),border-color var(--duration-base)}
+.article-card:hover{transform:translateY(-3px);border-color:var(--border-accent)}
+.article-card h2{font-size:clamp(1.4rem,2.2vw,1.9rem);margin:10px 0 10px}
+.article-card p{color:var(--text-secondary)}
+.article-card .go{display:inline-flex;gap:8px;margin-top:14px;font-weight:600;color:var(--text-accent)}

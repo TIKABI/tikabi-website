@@ -45,8 +45,13 @@ def strip_tags(html):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html)).replace(" ,", ",").replace(" .", ".").strip()
 
 
-def jsonld(filename, main):
+def jsonld(filename, main, meta=None):
     blocks = []
+    if filename.startswith("ratgeber-") and meta:
+        blocks.append({"@context": "https://schema.org", "@type": "BlogPosting", "headline": meta["title"].split(" | ")[0],
+                       "description": meta["description"], "datePublished": meta.get("date", ""), "dateModified": meta.get("date", ""),
+                       "inLanguage": "de-DE", "mainEntityOfPage": canonical(filename), "image": SITE + "/assets/img/og-tikabi.jpg",
+                       "author": {"@type": "Person", "name": "Tiffany Katz", "url": SITE + "/ueber-mich"}, "publisher": {"@id": SITE + "/#tikabi"}})
     if filename == "index.html":
         blocks.append(ORG)
     if filename == "shop.html":
@@ -85,7 +90,7 @@ for src in sorted((BUILD / "pages").glob("*.html")):
     html = (layout.replace("{{TITLE}}", meta["title"])
                   .replace("{{DESC}}", meta["description"])
                   .replace("{{CANONICAL}}", canonical(meta["file"]))
-                  .replace("{{JSONLD}}", jsonld(meta["file"], main))
+                  .replace("{{JSONLD}}", jsonld(meta["file"], main, meta))
                   .replace("{{PAGE}}", meta["page"])
                   .replace("{{WORLD}}", meta.get("world", "full"))
                   .replace("{{MAIN}}", main))
@@ -109,7 +114,7 @@ for src in sorted((BUILD / "pages").glob("*.html")):
     print("geschrieben:", meta["file"])
 
 # Sitemap und robots.txt für Suchmaschinen
-order = ["index.html", "webdesign.html", "shop.html", "website-check.html", "ueber-mich.html", "kontakt.html"]
+order = ["index.html", "webdesign.html", "shop.html", "website-check.html", "ueber-mich.html", "kontakt.html", "ratgeber.html", "ratgeber-startseite.html", "ratgeber-keine-anfragen.html"]
 files.sort(key=lambda f: (order.index(f) if f in order else len(order), f))
 urls = "\n".join(f"  <url><loc>{canonical(f)}</loc></url>" for f in files if f not in NO_SITEMAP)
 (OUT / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{urls}\n</urlset>\n', encoding="utf-8")
