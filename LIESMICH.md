@@ -3,12 +3,12 @@
 Öffnen: `index.html` per Doppelklick (funktioniert offline; der weiche Seitenwechsel
 "Reise" läuft nur über einen Webserver / nach dem Hochladen, lokal lädt jede Seite normal).
 
-## Noch einzutragen
-Datei `_build/links.json`:
-- `PAYHIP_FEHLER`, `PAYHIP_STARTSEITE`, `PAYHIP_KOMPLETT`, `BREVO_FORMULAR` sind eingetragen
-- `PAYHIP_BASIC`, `PAYHIP_ZUSATZSEITE`, `PAYHIP_SHOPINT`, `PAYHIP_TERMIN`, `PAYHIP_SEO`, `PAYHIP_CHECK` zeigen noch auf kontakt.html: echte Payhip-Links eintragen
+## Links
+Alle Payhip-Links und das Brevo-Formular sind in `_build/links.json` eingetragen (geprüft am 18.10.2026).
+Offen: Die Payhip-Verkaufsseiten von Zusatzseite, Shop-Integration, Buchungssystem, SEO Advanced und
+Website-Check zeigen noch die englische Payhip-Mustervorlage und müssen in Payhip befüllt werden.
 
-Danach im Ordner `website-neu` ausführen:  `python3 _build/build.py`
+Nach Änderungen im Ordner `website-neu` ausführen:  `python3 _build/build.py`
 
 ## Rechtstexte
 Impressum, AGB, Widerrufsbelehrung, Rückerstattung und Versand sind aus deiner Wix-Seite übernommen
