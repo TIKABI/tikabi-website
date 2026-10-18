@@ -488,3 +488,7 @@ html.is-arriving #stage{animation:arrive 760ms var(--ease-standard) backwards}
 .plain h3{text-shadow:none}
 .hero-split .plain,.split .plain{max-width:56ch}
 .center .plain,.center .lead{margin-inline:auto}
+
+/* Echtes Foto als Karte (ohne weiche Maske, z. B. Querformat) */
+.photo-card{margin:0 0 18px;border-radius:var(--radius-card);overflow:hidden;border:1px solid var(--border-subtle);box-shadow:var(--shadow-card)}
+.photo-card img{width:100%;height:auto;display:block}
