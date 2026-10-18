@@ -1,6 +1,7 @@
 [build]
   command = "python3 _build/build.py"
   publish = "."
+  functions = "netlify/functions"
 
 # Alte Adresse des Website-Checks
 [[redirects]]

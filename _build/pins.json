@@ -1,0 +1,209 @@
+{
+ "boards": {
+  "tipps": "Website-Tipps für Selbstständige",
+  "texte": "Startseite & Website-Texte",
+  "google": "Sichtbar bei Google & KI"
+ },
+ "pins": [
+  {
+   "id": "tikabi-pin-01",
+   "date": "2026-10-19",
+   "board": "tipps",
+   "title": "7 Website-Fehler, die Selbstständige Anfragen kosten",
+   "description": "Deine Website steht, aber Anfragen bleiben aus? Diese sieben Fehler bremsen Besucherinnen aus. Der PDF-Guide zeigt dir, wie du sie erkennst und behebst, auch ohne Technikwissen.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-01.jpg",
+   "alt": "Pin von TIKABI: 7 Fehler, die dich Anfragen kosten"
+  },
+  {
+   "id": "tikabi-pin-02",
+   "date": "2026-10-20",
+   "board": "texte",
+   "title": "Was gehört auf eine Startseite? 7 Bausteine für Selbstständige",
+   "description": "Eine gute Startseite beantwortet in Sekunden: Wer bist du, was bietest du an, und was kann ich jetzt tun? Mit dem Startseiten-Guide bringst du dein Angebot in sieben Schritten auf den Punkt.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-02.jpg",
+   "alt": "Pin von TIKABI: Was gehört auf deine Startseite?"
+  },
+  {
+   "id": "tikabi-pin-03",
+   "date": "2026-10-21",
+   "board": "tipps",
+   "title": "Website-Selbstcheck: Deine Website in 10 Minuten prüfen (kostenlos)",
+   "description": "Wo steht deine Website wirklich? Mit dem kostenlosen 10-Minuten-Selbstcheck findest du heraus, was schon gut ist und wo es hakt. Ideal für Selbstständige, Coachinnen und Dienstleisterinnen.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin#selbstcheck",
+   "image": "https://tikabi.de/assets/pins/pin-03.jpg",
+   "alt": "Pin von TIKABI: Deine Website in 10 Minuten prüfen"
+  },
+  {
+   "id": "tikabi-pin-04",
+   "date": "2026-10-22",
+   "board": "tipps",
+   "title": "Der 5-Sekunden-Test für deine Website",
+   "description": "Versteht eine fremde Besucherin in fünf Sekunden, was du anbietest und für wen? Wenn nicht, verlierst du Anfragen. Der TIKABI Website-Check analysiert deine Website in wenigen Minuten und zeigt dir konkrete Verbesserungen.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-04.jpg",
+   "alt": "Pin von TIKABI: Versteht man sofort, was du anbietest?"
+  },
+  {
+   "id": "tikabi-pin-05",
+   "date": "2026-10-23",
+   "board": "texte",
+   "title": "Website-Überschrift schreiben: Die einfache Formel",
+   "description": "Deine Hauptüberschrift ist der wichtigste Satz deiner Website. Mit dieser Formel sagst du klar, was du machst, für wen und mit welchem Ergebnis. Mit Beispiel für Coachinnen und Selbstständige.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-05.jpg",
+   "alt": "Pin von TIKABI: Die Formel für deine Überschrift"
+  },
+  {
+   "id": "tikabi-pin-06",
+   "date": "2026-10-26",
+   "board": "texte",
+   "title": "Button-Texte für deine Website: Vorher und Nachher",
+   "description": "„Hier klicken“ sagt niemandem, was passiert. Gute Buttons beschreiben das Ziel. So formulierst du Buttons, die deine Besucherinnen gern klicken, mit Beispielen zum Übernehmen.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-06.jpg",
+   "alt": "Pin von TIKABI: Buttons, die geklickt werden"
+  },
+  {
+   "id": "tikabi-pin-07",
+   "date": "2026-10-27",
+   "board": "texte",
+   "title": "Über-mich-Seite schreiben: 5 Fragen, die dir helfen",
+   "description": "Deine Über-mich-Seite gehört zu den meistbesuchten Seiten deiner Website. Diese fünf Fragen helfen dir, persönlich und klar über dich zu schreiben, ohne dich zu verbiegen.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-07.jpg",
+   "alt": "Pin von TIKABI: 5 Fragen für deine Über-mich-Seite"
+  },
+  {
+   "id": "tikabi-pin-08",
+   "date": "2026-10-28",
+   "board": "tipps",
+   "title": "Website-Checkliste vor dem Launch für Selbstständige",
+   "description": "Bevor deine Website online geht: Mit dieser Checkliste vergisst du nichts Wichtiges, von Impressum bis Handy-Ansicht. Für Selbstständige, die ihre Website selbst bauen.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-08.jpg",
+   "alt": "Pin von TIKABI: Checkliste für deine neue Website"
+  },
+  {
+   "id": "tikabi-pin-09",
+   "date": "2026-10-29",
+   "board": "tipps",
+   "title": "Warum meine Website keine Anfragen bringt: 5 Gründe",
+   "description": "Viele Besucher, aber keine Anfragen? Meist liegt es an diesen fünf Punkten. Der Website-Check zeigt dir in wenigen Minuten, welche davon auf deine Website zutreffen und was du tun kannst.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-09.jpg",
+   "alt": "Pin von TIKABI: 5 Gründe, warum deine Website still bleibt"
+  },
+  {
+   "id": "tikabi-pin-10",
+   "date": "2026-10-30",
+   "board": "tipps",
+   "title": "Website auf dem Handy prüfen: 4 einfache Tests",
+   "description": "Die meisten Besucherinnen kommen über das Handy. Mit diesen vier Tests siehst du schnell, ob deine Website mobil funktioniert, oder ob du Anfragen verlierst.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-10.jpg",
+   "alt": "Pin von TIKABI: 4 Dinge, die du auf dem Handy prüfen solltest"
+  },
+  {
+   "id": "tikabi-pin-11",
+   "date": "2026-11-02",
+   "board": "texte",
+   "title": "Website-Texte schreiben ohne Schreibblockade: 4 Tipps",
+   "description": "Du sitzt vor einer leeren Seite und weißt nicht, wie anfangen? Mit diesen vier Tipps schreibst du deine Website-Texte leichter. Der Website-Guide führt dich Schritt für Schritt durch alle Seiten.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-11.jpg",
+   "alt": "Pin von TIKABI: Website-Texte schreiben ohne Blockade"
+  },
+  {
+   "id": "tikabi-pin-12",
+   "date": "2026-11-03",
+   "board": "tipps",
+   "title": "Website selbst machen oder machen lassen? 3 Wege",
+   "description": "Nicht jede braucht gleich eine neue Website. Manchmal reicht ein Plan, manchmal ein frischer Blick, manchmal gibst du die Umsetzung besser ab. Finde heraus, welcher Weg zu dir passt.",
+   "link": "https://tikabi.de/?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-12.jpg",
+   "alt": "Pin von TIKABI: Welche Hilfe passt zu dir?"
+  },
+  {
+   "id": "tikabi-pin-13",
+   "date": "2026-11-04",
+   "board": "google",
+   "title": "Bei Google gefunden werden: 5 Basics für Selbstständige",
+   "description": "Ohne teure Agentur bei Google sichtbar werden: Mit diesen fünf Grundlagen machst du es Google leicht, deine Website zu verstehen. Ideal für lokale Selbstständige.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-13.jpg",
+   "alt": "Pin von TIKABI: So findet Google deine Website"
+  },
+  {
+   "id": "tikabi-pin-14",
+   "date": "2026-11-05",
+   "board": "google",
+   "title": "Von ChatGPT empfohlen werden: So wird deine Website KI-freundlich",
+   "description": "Immer mehr Menschen fragen ChatGPT statt Google. Damit KI-Assistenten dein Angebot finden und empfehlen, muss deine Website klar sagen, wer du bist, was du anbietest und für wen.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-14.jpg",
+   "alt": "Pin von TIKABI: So empfiehlt dich ChatGPT"
+  },
+  {
+   "id": "tikabi-pin-15",
+   "date": "2026-11-06",
+   "board": "tipps",
+   "title": "Vertrauen auf der Website aufbauen: 3 einfache Dinge",
+   "description": "Menschen kaufen bei Menschen. Mit Kundenstimmen, einem echten Foto und klaren Angeboten fühlen sich Besucherinnen sicher genug, dich anzufragen.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-15.jpg",
+   "alt": "Pin von TIKABI: 3 Dinge, die Vertrauen schaffen"
+  },
+  {
+   "id": "tikabi-pin-16",
+   "date": "2026-11-09",
+   "board": "tipps",
+   "title": "Onepager für Selbstständige: Reicht eine Seite?",
+   "description": "Du brauchst keine zehn Unterseiten, um professionell zu wirken. Ein klarer Onepager mit Angebot, Über mich und Kontakt reicht für viele Selbstständige. So baust du ihn auf.",
+   "link": "https://tikabi.de/webdesign?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-16.jpg",
+   "alt": "Pin von TIKABI: Reicht eine einzige Seite?"
+  },
+  {
+   "id": "tikabi-pin-17",
+   "date": "2026-11-10",
+   "board": "tipps",
+   "title": "Website-Struktur: Diese 5 Seiten brauchst du wirklich",
+   "description": "Weniger ist oft mehr. Diese fünf Seiten reichen für die meisten Selbstständigen. Im kompletten Website-Guide erarbeitest du Struktur und Texte für jede davon.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-17.jpg",
+   "alt": "Pin von TIKABI: Welche Seiten brauchst du wirklich?"
+  },
+  {
+   "id": "tikabi-pin-18",
+   "date": "2026-11-11",
+   "board": "tipps",
+   "title": "Bilder für die Website: 4 Tipps für Selbstständige",
+   "description": "Bilder entscheiden über den ersten Eindruck und die Ladezeit. Mit diesen vier Tipps wirkt deine Website persönlicher, lädt schneller und wird besser bei Google gefunden.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-18.jpg",
+   "alt": "Pin von TIKABI: 4 Tipps für bessere Website-Bilder"
+  },
+  {
+   "id": "tikabi-pin-19",
+   "date": "2026-11-12",
+   "board": "texte",
+   "title": "Der rote Faden für deine Website: Problem, Lösung, nächster Schritt",
+   "description": "Viele Websites zeigen alles auf einmal. Mit diesem einfachen roten Faden führst du Besucherinnen Schritt für Schritt zu deinem Angebot und zur Anfrage.",
+   "link": "https://tikabi.de/shop?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-19.jpg",
+   "alt": "Pin von TIKABI: Problem. Lösung. Nächster Schritt."
+  },
+  {
+   "id": "tikabi-pin-20",
+   "date": "2026-11-13",
+   "board": "tipps",
+   "title": "Website-Check für Selbstständige: Analyse in wenigen Minuten",
+   "description": "Du willst wissen, warum deine Website nicht funktioniert? Der TIKABI Website-Check analysiert deine Seiten in wenigen Minuten: Botschaft, Texte, Design, Handy, Technik und Google. Mit konkreten Vorschlägen.",
+   "link": "https://tikabi.de/website-check?utm_source=pinterest&utm_medium=pin",
+   "image": "https://tikabi.de/assets/pins/pin-20.jpg",
+   "alt": "Pin von TIKABI: Deine Website analysiert in Minuten"
+  }
+ ]
+}
