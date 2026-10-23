@@ -564,3 +564,13 @@ html.is-arriving #stage{animation:arrive 760ms var(--ease-standard) backwards}
 .link-list .article-card.v2 h2{font-size:clamp(1.25rem,2.4vw,1.6rem);margin:.15em 0 .25em}
 .link-list .article-card.v2 p:not(.eyebrow){font-size:.95rem;margin:0 0 .4em}
 @media(max-width:520px){.link-list .article-card.v2{grid-template-columns:84px minmax(0,1fr);gap:14px;padding:14px}.link-list .article-card.v2 p:not(.eyebrow){display:none}}
+/* Referenz auf der Webdesign-Seite: Computer-Screenshot mit Handy davor */
+.ref{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(28px,5vw,72px);align-items:center}
+.ref-visual{position:relative;padding:0 8% 10% 0}
+.ref-desktop{margin:0}
+.ref-mobile{position:absolute;right:0;bottom:0;width:30%;margin:0;border-radius:22px;overflow:hidden;border:6px solid #0d0a1a;box-shadow:var(--shadow-card)}
+.ref-mobile img{width:100%;height:auto;display:block}
+.ref-quote{margin:1.4em 0;padding:22px 26px;border-radius:var(--radius-card)}
+.ref-quote p{font-family:"Playfair Display",serif;font-style:italic;font-size:clamp(1.3rem,2.2vw,1.6rem);color:#fff;margin:0}
+.ref-quote footer{margin-top:.5em;font-size:.95rem;color:var(--pink-soft,#FF8BD0)}
+@media(max-width:900px){.ref{grid-template-columns:1fr}}
