@@ -557,3 +557,10 @@ html.is-arriving #stage{animation:arrive 760ms var(--ease-standard) backwards}
 .article-card.v2{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(18px,3vw,40px);align-items:center;padding:clamp(16px,2.4vw,28px)}
 .article-card.v2 img{width:100%;-webkit-mask-image:radial-gradient(ellipse 66% 68% at 50% 52%,#000 55%,transparent 100%);mask-image:radial-gradient(ellipse 66% 68% at 50% 52%,#000 55%,transparent 100%)}
 @media(max-width:760px){.article-card.v2{grid-template-columns:1fr}}
+/* Link-Seite für Instagram: kompakte Karten mit kleinem Bild, auch am Handy nebeneinander */
+.link-list.article-list.v2{max-width:760px;gap:16px}
+.link-list .article-card.v2{grid-template-columns:120px minmax(0,1fr);gap:20px;padding:16px 20px}
+.link-list .article-card.v2 img{aspect-ratio:1;object-fit:cover;border-radius:16px;-webkit-mask-image:none;mask-image:none}
+.link-list .article-card.v2 h2{font-size:clamp(1.25rem,2.4vw,1.6rem);margin:.15em 0 .25em}
+.link-list .article-card.v2 p:not(.eyebrow){font-size:.95rem;margin:0 0 .4em}
+@media(max-width:520px){.link-list .article-card.v2{grid-template-columns:84px minmax(0,1fr);gap:14px;padding:14px}.link-list .article-card.v2 p:not(.eyebrow){display:none}}

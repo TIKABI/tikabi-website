@@ -16,7 +16,7 @@ layout = (BUILD / "layout.html").read_text(encoding="utf-8")
 links = json.loads((BUILD / "links.json").read_text(encoding="utf-8"))
 SITE = "https://tikabi.de"
 # Seiten, die nicht in die Sitemap sollen (Rechtstexte bleiben drin, sie schaden nicht).
-NO_SITEMAP = {"404.html"}
+NO_SITEMAP = {"404.html", "links.html"}
 
 
 ORG = {
@@ -98,6 +98,9 @@ for src in sorted((BUILD / "pages").glob("*.html")):
         # Die Fehlerseite erscheint unter beliebigen Adressen: feste Basis für Links und Bilder, nicht indexieren.
         html = html.replace("<head>", '<head>\n<base href="/">\n<meta name="robots" content="noindex">', 1)
         html = re.sub(r'\n<link rel="canonical"[^>]*>', "", html)
+    elif meta["file"] in NO_SITEMAP:
+        # Link-Seite für Instagram: erreichbar, aber nicht in der Google-Suche
+        html = html.replace("<head>", '<head>\n<meta name="robots" content="noindex">', 1)
     page = meta["page"]
 
     def add_current(m):
