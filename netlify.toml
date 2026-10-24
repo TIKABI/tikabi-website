@@ -125,3 +125,10 @@
   to = "/shop"
   status = 301
 
+
+# Bilder und Videos für den Instagram-Autopost: abrufbar für Instagram, aber nicht in Google
+# (bewusst kein Eintrag in robots.txt, damit Instagram die Dateien weiter laden darf)
+[[headers]]
+  for = "/assets/instagram/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, noimageindex"
