@@ -132,3 +132,9 @@
   for = "/assets/instagram/*"
   [headers.values]
     X-Robots-Tag = "noindex, noimageindex"
+
+# Gratis-Selbstcheck (Link steht in der Brevo-Bestätigungsmail): abrufbar, aber nicht in Google
+[[headers]]
+  for = "/downloads/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
