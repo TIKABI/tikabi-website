@@ -374,7 +374,7 @@ a.stop-body:hover .go span{transform:translateX(5px)}
 @media(max-width:860px){.shop-row,.shop-row:nth-child(even){grid-template-columns:minmax(0,1fr)}.shop-row:nth-child(even) .shop-cover{order:0}}
 
 /* Kontakt */
-.contact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.contact-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
 .contact-card{display:flex;flex-direction:column;gap:10px;padding:28px;transition:transform var(--duration-base) var(--ease-standard),border-color var(--duration-base)}
 .contact-card:hover{transform:translateY(-4px);border-color:var(--border-accent)}
 .contact-card h3{font-size:1.5rem}
