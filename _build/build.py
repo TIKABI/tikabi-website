@@ -56,9 +56,19 @@ def jsonld(filename, main, meta=None):
         blocks.append(ORG)
     if filename == "shop.html":
         for name, desc, price, link, img in GUIDES:
+            # Digitale PDFs: Marke mit Namen, keine Rückgabe nach Download (siehe rueckerstattung.html), kein Versand
             blocks.append({"@context": "https://schema.org", "@type": "Product", "name": name, "description": desc,
-                           "image": f"{SITE}/{img}", "brand": {"@id": SITE + "/#tikabi"},
-                           "offers": {"@type": "Offer", "price": price, "priceCurrency": "EUR", "availability": "https://schema.org/InStock", "url": links[link]}})
+                           "image": f"{SITE}/{img}", "brand": {"@type": "Brand", "name": "TIKABI"},
+                           "offers": {"@type": "Offer", "price": price, "priceCurrency": "EUR", "availability": "https://schema.org/InStock", "url": links[link],
+                                      "hasMerchantReturnPolicy": {"@type": "MerchantReturnPolicy", "applicableCountry": "DE",
+                                                                  "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+                                                                  "url": SITE + "/rueckerstattung"},
+                                      "shippingDetails": {"@type": "OfferShippingDetails",
+                                                          "shippingRate": {"@type": "MonetaryAmount", "value": "0", "currency": "EUR"},
+                                                          "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "DE"},
+                                                          "deliveryTime": {"@type": "ShippingDeliveryTime",
+                                                                           "handlingTime": {"@type": "QuantitativeValue", "minValue": 0, "maxValue": 0, "unitCode": "DAY"},
+                                                                           "transitTime": {"@type": "QuantitativeValue", "minValue": 0, "maxValue": 0, "unitCode": "DAY"}}}}})
     faqs = re.findall(r'<details name="faq"[^>]*><summary>(.*?)</summary><div class="answer">(.*?)</div></details>', main, re.S)
     if faqs:
         blocks.append({"@context": "https://schema.org", "@type": "FAQPage",
