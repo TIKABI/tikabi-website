@@ -567,6 +567,9 @@ html.is-arriving #stage{animation:arrive 760ms var(--ease-standard) backwards}
 /* Referenz auf der Webdesign-Seite: Computer-Screenshot mit Handy davor */
 .ref{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(28px,5vw,72px);align-items:center}
 .ref-visual{position:relative;padding:0 8% 10% 0}
+.ref--flip{grid-template-columns:minmax(0,1fr) minmax(0,1.15fr)}
+.ref--flip .ref-visual{order:2}
+@media(max-width:900px){.ref--flip .ref-visual{order:0}}
 .ref-desktop{margin:0}
 .ref-mobile{position:absolute;right:0;bottom:0;width:30%;margin:0;border-radius:22px;overflow:hidden;border:6px solid #0d0a1a;box-shadow:var(--shadow-card)}
 .ref-mobile img{width:100%;height:auto;display:block}
