@@ -16,7 +16,7 @@ layout = (BUILD / "layout.html").read_text(encoding="utf-8")
 links = json.loads((BUILD / "links.json").read_text(encoding="utf-8"))
 SITE = "https://tikabi.de"
 # Seiten, die nicht in die Sitemap sollen (Rechtstexte bleiben drin, sie schaden nicht).
-NO_SITEMAP = {"404.html", "links.html"}
+NO_SITEMAP = {"404.html", "links.html", "check.html"}
 
 
 ORG = {
@@ -91,12 +91,33 @@ def parse(path):
     return {k.strip(): v.strip() for k, v in meta.items()}, m.group(2).strip()
 
 
+CAT_NAMES = {"botschaft": "Klarheit & Botschaft", "zielgruppe": "Ansprache & Zielgruppe", "struktur": "Struktur & Navigation",
+             "texte": "Texte & Lesbarkeit", "cta": "Nächster Schritt & Kontakt", "vertrauen": "Vertrauen", "design": "Design & Bildsprache",
+             "mobil": "Darstellung auf dem Handy", "technik": "Technik & Ladezeit", "seo": "Auffindbarkeit bei Google & KI"}
+
+
+def lp_fill(main):
+    """Füllt die Landingpage mit echten Ausschnitten aus einem Website-Check (_build/lp-report.json)."""
+    if "{{LP_" not in main:
+        return main
+    f = BUILD / "lp-report.json"
+    if not f.exists():
+        sys.exit("check.html: _build/lp-report.json fehlt (Ausschnitte aus einem echten Website-Check)")
+    r = json.loads(f.read_text(encoding="utf-8"))
+    esc = lambda t: (t or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    bars = "".join(f'<li><span>{esc(CAT_NAMES.get(k["key"], k["key"]))}</span><span class="lp-bar"><i style="width:{int(k["note"]) * 10}%"></i></span><b>{int(k["note"])}</b></li>' for k in r["kategorien"])
+    todos = "".join(f'<li><strong>{esc(t["titel"])}</strong><span>{esc(t["bereich"])}</span></li>' for t in r["todos"])
+    return (main.replace("{{LP_NOTE}}", str(int(r["gesamtnote"]))).replace("{{LP_KERNSATZ}}", esc(r["kernsatz"]))
+                .replace("{{LP_BARS}}", bars).replace("{{LP_TODOS}}", todos))
+
+
 count = 0
 files = []
 for src in sorted((BUILD / "pages").glob("*.html")):
     meta, main = parse(src)
     for key, url in links.items():
         main = main.replace("{{" + key + "}}", url)
+    main = lp_fill(main)
     html = (layout.replace("{{TITLE}}", meta["title"])
                   .replace("{{DESC}}", meta["description"])
                   .replace("{{CANONICAL}}", canonical(meta["file"]))
@@ -111,6 +132,12 @@ for src in sorted((BUILD / "pages").glob("*.html")):
     elif meta["file"] in NO_SITEMAP:
         # Link-Seite für Instagram: erreichbar, aber nicht in der Google-Suche
         html = html.replace("<head>", '<head>\n<meta name="robots" content="noindex">', 1)
+    if meta.get("layout") == "landing":
+        # Landingpage (z. B. für Pinterest): ein Ziel, kein Menü, kein großer Footer. Rechtliche Links bleiben.
+        html = re.sub(r'<nav class="main-nav".*?</nav>\s*<div class="header-tools">.*?</div>\s*', "", html, flags=re.S)
+        html = re.sub(r'<nav class="rail"[^>]*></nav>', "", html)
+        html = re.sub(r'<div class="footer-grid">.*?</div>\s*(?=<nav class="footer-legal")', "", html, flags=re.S)
+        html = html.replace('<body data-page=', '<body data-layout="landing" data-page=', 1)
     page = meta["page"]
 
     def add_current(m):
