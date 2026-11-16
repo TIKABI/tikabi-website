@@ -455,3 +455,39 @@
     if (window.console) console.error("TIKABI: Init-Fehler", err);
   }
 })();
+
+/* Selbstcheck-Pop-up: einmal pro Besucherin, nach halber Seite oder 30 Sekunden.
+   Geschlossen -> 30 Tage Ruhe, angeklickt -> nie wieder. Nicht auf Check-, Rechts- und Sonderseiten. */
+(() => {
+  const pop = document.getElementById('sc-pop');
+  if (!pop) return;
+  const page = document.body.dataset.page;
+  if (['tools', 'legal', 'notfound', 'links'].includes(page)) return;
+  const KEY = 'tikabi-selbstcheck-pop';
+  let saved = null;
+  try { saved = JSON.parse(localStorage.getItem(KEY) || 'null'); } catch (e) { /* Speicher gesperrt: trotzdem nur einmal pro Besuch */ }
+  if (saved && (saved.done || Date.now() - saved.closed < 30 * 864e5)) return;
+  const store = (v) => { try { localStorage.setItem(KEY, JSON.stringify(v)); } catch (e) { /* egal */ } };
+  let shown = false;
+  const show = () => {
+    if (shown) return;
+    shown = true;
+    window.removeEventListener('scroll', onScroll);
+    pop.hidden = false;
+    requestAnimationFrame(() => requestAnimationFrame(() => pop.classList.add('is-open')));
+  };
+  const hide = (v) => {
+    store(v);
+    pop.classList.remove('is-open');
+    setTimeout(() => { pop.hidden = true; }, 600);
+  };
+  const onScroll = () => {
+    const max = document.documentElement.scrollHeight - innerHeight;
+    if (max > 0 && scrollY / max >= 0.5) show();
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  setTimeout(show, 30000);
+  pop.querySelector('[data-sc-close]').addEventListener('click', () => hide({ closed: Date.now() }));
+  pop.querySelector('[data-sc-go]').addEventListener('click', () => hide({ done: true }));
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && shown && !pop.hidden) hide({ closed: Date.now() }); });
+})();

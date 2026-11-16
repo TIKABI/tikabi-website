@@ -14,6 +14,8 @@ BUILD = Path(__file__).resolve().parent
 OUT = BUILD.parent
 layout = (BUILD / "layout.html").read_text(encoding="utf-8")
 links = json.loads((BUILD / "links.json").read_text(encoding="utf-8"))
+for _key, _url in links.items():  # Links auch im gemeinsamen Rahmen (z. B. Selbstcheck-Pop-up)
+    layout = layout.replace("{{" + _key + "}}", _url)
 SITE = "https://tikabi.de"
 # Seiten, die nicht in die Sitemap sollen (Rechtstexte bleiben drin, sie schaden nicht).
 NO_SITEMAP = {"404.html", "links.html", "check.html"}
